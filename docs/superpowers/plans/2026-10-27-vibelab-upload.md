@@ -171,11 +171,11 @@ Expected: whitespace check exits 0 and the commit contains Unity source plus ret
 ### Task 3: Create VibeLab Assets and Configuration
 
 **Files:**
-- Create: `assets/icon.png`
-- Create: `assets/landscape.png`
-- Create: `assets/detail-region-0.png`
-- Create: `assets/detail-region-1.png`
-- Create: `assets/detail-region-2.png`
+- Create: `VibeLabAssets/icon.png`
+- Create: `VibeLabAssets/landscape.png`
+- Create: `VibeLabAssets/detail-region-0.png`
+- Create: `VibeLabAssets/detail-region-1.png`
+- Create: `VibeLabAssets/detail-region-2.png`
 - Modify: `vibelab.yaml`
 
 **Interfaces:**
@@ -187,19 +187,19 @@ Expected: whitespace check exits 0 and the commit contains Unity source plus ret
 Run:
 
 ```bash
-mkdir -p assets
-sips --resampleHeightWidth 1024 1024 Assets/Riftline/Art/Generated/MenuArtwork.png --out assets/icon.png
+mkdir -p VibeLabAssets
+sips --resampleHeightWidth 1024 1024 Assets/Riftline/Art/Generated/MenuArtwork.png --out VibeLabAssets/icon.png
 sips --cropToHeightWidth 1716 3050 docs/engagement/screens/home-final.png --out /tmp/riftline-vibelab-landscape-crop.png
-sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-landscape-crop.png --out assets/landscape.png
+sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-landscape-crop.png --out VibeLabAssets/landscape.png
 sips --cropToHeightWidth 793 1410 docs/quality/screens/region-0-1.png --out /tmp/riftline-vibelab-region-0-crop.png
-sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-region-0-crop.png --out assets/detail-region-0.png
+sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-region-0-crop.png --out VibeLabAssets/detail-region-0.png
 sips --cropToHeightWidth 793 1410 docs/quality/screens/region-1-1.png --out /tmp/riftline-vibelab-region-1-crop.png
-sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-region-1-crop.png --out assets/detail-region-1.png
+sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-region-1-crop.png --out VibeLabAssets/detail-region-1.png
 sips --cropToHeightWidth 793 1410 docs/quality/screens/region-2-1.png --out /tmp/riftline-vibelab-region-2-crop.png
-sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-region-2-crop.png --out assets/detail-region-2.png
+sips --resampleHeightWidth 1440 2560 /tmp/riftline-vibelab-region-2-crop.png --out VibeLabAssets/detail-region-2.png
 ```
 
-Expected: `assets/icon.png` is 1024x1024; every other generated image is 2560x1440.
+Expected: `VibeLabAssets/icon.png` is 1024x1024; every other generated image is 2560x1440.
 
 - [ ] **Step 2: Write the approved VibeLab configuration**
 
@@ -221,12 +221,12 @@ app:
     - Sci-Fi
     - Action
   category: game
-  icon: assets/icon.png
-  landscape: assets/landscape.png
+  icon: VibeLabAssets/icon.png
+  landscape: VibeLabAssets/landscape.png
   detail_images:
-    - assets/detail-region-0.png
-    - assets/detail-region-1.png
-    - assets/detail-region-2.png
+    - VibeLabAssets/detail-region-0.png
+    - VibeLabAssets/detail-region-1.png
+    - VibeLabAssets/detail-region-2.png
   videos: []
 version:
   name: 0.1.0
@@ -253,7 +253,7 @@ build:
 Run:
 
 ```bash
-for image_path in assets/*.png; do sips -g pixelWidth -g pixelHeight "$image_path"; stat -f '%z %N' "$image_path"; done
+for image_path in VibeLabAssets/*.png; do sips -g pixelWidth -g pixelHeight "$image_path"; stat -f '%z %N' "$image_path"; done
 /Users/bytedance/.local/bin/pico-cli tool exec pico-release-cli-cn -- --json add
 ```
 
@@ -264,11 +264,11 @@ Expected: icon reports 1024x1024 and less than 4194304 bytes; all other images r
 Run:
 
 ```bash
-git add assets vibelab.yaml
+git add VibeLabAssets vibelab.yaml docs/superpowers/plans/2026-10-27-vibelab-upload.md
 git commit -m "chore: configure VibeLab draft"
 ```
 
-Expected: a commit containing only the five presentation images and `vibelab.yaml`.
+Expected: a commit containing the five presentation images, `vibelab.yaml`, and the case-safe path correction in this plan.
 
 ### Task 4: Validate and Publish GitHub Main
 
