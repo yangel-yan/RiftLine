@@ -34,4 +34,9 @@ cli.save
 文档读取授权.png
 docs/**/harness-diagnostics/
 docs/validation/
+docs/**/*.png
+docs/**/*.jpg
+docs/**/*.jpeg
+docs/**/*.csv
+docs/**/*.txt
 .vibelab/
