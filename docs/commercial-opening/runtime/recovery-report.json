@@ -1,0 +1,17 @@
+{
+    "Success": true,
+    "Stage": "Passed",
+    "Failure": "",
+    "Errors": 0,
+    "Checks": [
+        "Previous real death had three hits and zero life",
+        "Actual settled Retry is interactable",
+        "Real mouse raycast hits Retry",
+        "Actual settled Retry is interactable",
+        "Mouse Retry restores three lives and same contract",
+        "Mouse Retry clears objective/archive/pulses",
+        "Second real death verified",
+        "Failure Enter retries current contract with full life",
+        "Recovery has no runtime errors"
+    ]
+}

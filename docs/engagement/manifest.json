@@ -1,0 +1,85 @@
+{
+  "Success": true,
+  "LiveChecks": 56,
+  "LiveReport": "report.json",
+  "Milestones": [
+    {
+      "Kind": "Damage",
+      "FirstElapsed": 3.0,
+      "Occurrences": 1
+    },
+    {
+      "Kind": "Chip",
+      "FirstElapsed": 3.72,
+      "Occurrences": 43
+    },
+    {
+      "Kind": "Combo",
+      "FirstElapsed": 6.12,
+      "Occurrences": 3
+    },
+    {
+      "Kind": "Jump",
+      "FirstElapsed": 8.729,
+      "Occurrences": 3
+    },
+    {
+      "Kind": "Slide",
+      "FirstElapsed": 11.768,
+      "Occurrences": 2
+    },
+    {
+      "Kind": "Turn",
+      "FirstElapsed": 18.0,
+      "Occurrences": 2
+    },
+    {
+      "Kind": "PhaseReady",
+      "FirstElapsed": 15.0,
+      "Occurrences": 1
+    },
+    {
+      "Kind": "Phase",
+      "FirstElapsed": 29.726,
+      "Occurrences": 1
+    },
+    {
+      "Kind": "Archive",
+      "FirstElapsed": 37.5,
+      "Occurrences": 1
+    },
+    {
+      "Kind": "Complete",
+      "FirstElapsed": 60.0,
+      "Occurrences": 1
+    }
+  ],
+  "CoreReport": "core-all.json",
+  "SourceHashes": {
+    "Assets/Riftline/Scripts/Core/AssemblyInfo.cs": "2c5c4b879a5081a9eaffdadff023c73862319109036c2760e6e323ece28bb56d",
+    "Assets/Riftline/Scripts/Core/GameCatalog.cs": "6304700c71f8a5a1ff3c72b523f3a440cbee14d7288198c2e95bccb036892419",
+    "Assets/Riftline/Scripts/Core/GameProgress.cs": "c84af71f6df3725e2dc03ef1c0d72d651ebd043c8b63fbd7512fafee2325b8ae",
+    "Assets/Riftline/Scripts/Core/GameSaveStore.cs": "204e9e84c7401b5401f7090ba3ae0e4540761b7db2cd7312ed91d7f0aef86561",
+    "Assets/Riftline/Scripts/Core/RiftlineTypes.cs": "d81d835021224dd6847110ff401bed8d415acb9e00ac648ac92633f566bf76ac",
+    "Assets/Riftline/Scripts/Core/RunAutopilot.cs": "205c35a087ff1541ec7c5eefcada92dcafb5b6262f53212d4c809c4145e5c683",
+    "Assets/Riftline/Scripts/Core/RunSimulation.cs": "182c9e0c7f8f727d8a8f10ea75fc3edce1f5e49207d0c2007bc3dd7f99d11d8a",
+    "Assets/Riftline/Scripts/Core/TrackGenerator.cs": "dfd280f0697a180cd819256a94da393eb06ce29a8a65a01b12ba66b9ef65a483",
+    "Assets/Riftline/Scripts/UI/RiftlineRunHud.cs": "3192f525671c53a3a1164760cc530d2f6bda87de82d03c2e61312036003ab3e1",
+    "Assets/Riftline/Scripts/UI/RiftlineUI.cs": "73797d68ca1e114b4f47a994fc1056017887f13c88ca13b509da95e87630ac95",
+    "Assets/Riftline/Scripts/UI/RiftlineUIElements.cs": "44c56155fa66457613344603a7eb9b16ec4547eb8feefb4ff01761b94b2c4d2c",
+    "Assets/Riftline/Scripts/UI/RiftlineUIGradient.cs": "ac0de2ff7dc7016b5842b3e4f14fdea47437df218d3478eafe221e34bbb872f1",
+    "Assets/Riftline/Scripts/UI/RiftlineUILocalization.cs": "17dab3957f05033ab6576d96730d2b4956aa5baa4bc3c01d9f36ff6c4fad3d7c",
+    "Assets/Riftline/Scripts/Runtime/RiftlineAppearance.cs": "25c77a343bc772aa076f51cf6e1516e5675fa45ce8559491c6a80638bcc28c6a",
+    "Assets/Riftline/Scripts/Runtime/RiftlineAssets.cs": "a041030610744326572dbd4238d62ffba9acfaf8b1ad7f0b00cf68a66e4a46d4",
+    "Assets/Riftline/Scripts/Runtime/RiftlineAudio.cs": "baf97260758f8e577ea9bf5622fcb55f898ced130aca250c0b7c6bb51938efe7",
+    "Assets/Riftline/Scripts/Runtime/RiftlineEnvironment.cs": "4950caaa10bc1847f12c8b906a15e3b0cfdf68911d0204177aab348bedead4a5",
+    "Assets/Riftline/Scripts/Runtime/RiftlineGame.cs": "c9ee7f56c8a12b32b2ea6b1c2ee20870e810b31f5b748b88b4a5ca9fb9d58ee8",
+    "Assets/Riftline/Scripts/Runtime/RiftlineHeadTracking.cs": "eec46a82f8278bc7254a80308483bf4055382f4cc3ca19e10d0fbc1a357b1421",
+    "Assets/Riftline/Scripts/Runtime/RiftlineInput.cs": "7de2185f9fa4723a7d7026e230483a40b24b1ae0499ab44639e4434e35aa794d",
+    "Assets/Riftline/Scripts/Runtime/RiftlineNavigationRig.cs": "c40ed12e56fb2fba47eff1506041d840aedf4fec68460c43cf717618b4b3e171",
+    "Assets/Riftline/Scripts/Runtime/RiftlineRunnerAnimation.cs": "2b8e9e57a1af027d634b7be901d0e427c8a400aeb8f079cfd1a73a296523690e",
+    "Assets/Riftline/Scripts/Runtime/RiftlineRuntimeState.cs": "4dc52adf149cd35de170877e851b3324131d5a3825b43e7f73a10f7d399f0cc7",
+    "Assets/Riftline/Scripts/Runtime/RiftlineWorld.cs": "feeae5961a2abba5f7ccbc3071fb2d18c810467ea97c306a0520faf86e0deef1"
+  },
+  "Scope": "Desktop Unity Editor, generated art/audio library; no hardware or player-retention study."
+}

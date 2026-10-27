@@ -1,0 +1,32 @@
+{
+    "Success": true,
+    "SawCombo": true,
+    "SawPhase": true,
+    "SawArchive": true,
+    "SawLanding": true,
+    "SawExtraction": true,
+    "Errors": 0,
+    "Health": 2,
+    "Damage": 1,
+    "Score": 18604,
+    "Chips": 43,
+    "ClearElapsed": 60.0,
+    "Stage": "Passed",
+    "Failure": "",
+    "StartedEditorTime": 6242.001024667,
+    "FinishedEditorTime": 6313.839335167,
+    "Method": "Normal Time.timeScale=1, virtual keyboard/mouse through production InputSystem; no autopilot or simulation stepping. Enhanced visual feedback setting ReducedFlash=false, ReducedParticles=false.",
+    "Checks": [
+        "Actual audio DSP advances",
+        "Fresh first-time player save",
+        "Actual mouse target Run Now",
+        "Raycast Run Now",
+        "One actual hit; two lives at extraction",
+        "All opening beats witnessed",
+        "Archive/extraction objective complete",
+        "Actual mouse target Next",
+        "Raycast Next",
+        "Actual Next click starts unlocked successor with full life",
+        "Normal speed and no runtime errors"
+    ]
+}

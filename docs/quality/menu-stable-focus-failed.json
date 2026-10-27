@@ -1,0 +1,271 @@
+{
+    "Session": "edf3617cc7f74552b7032eb0fddaf320",
+    "Scenario": "TestPhaseZero",
+    "Status": "Failed",
+    "Stage": "Finished",
+    "Message": "System.InvalidOperationException: Actual mouse click opens Contracts: \n  at Riftline.RiftlinePlayValidation.Require (System.Boolean condition, System.String name, System.String detail) [0x0001d] in /Users/bytedance/Desktop/Riftline/Assets/Riftline/Editor/RiftlinePlayValidation.cs:1603 \n  at Riftline.RiftlinePlayValidation.VerifyMenuInput () [0x00068] in /Users/bytedance/Desktop/Riftline/Assets/Riftline/Editor/RiftlinePlayValidation.cs:586 \n  at Riftline.RiftlinePlayValidation.RenderedFrame () [0x0041d] in /Users/bytedance/Desktop/Riftline/Assets/Riftline/Editor/RiftlinePlayValidation.cs:553 ",
+    "StartedUtc": "2026-10-26T08:34:03.0789810Z",
+    "UpdatedUtc": "2026-10-26T08:34:03.4673280Z",
+    "SaveDirectory": "/tmp/riftline-acceptance-staged/saves/c08ca78f2d3743f792350397941dfd75",
+    "Scene": "Assets/Riftline/Scenes/Riftline.unity",
+    "UnityVersion": "6000.6.7f1",
+    "EvidenceScope": "Real Unity Editor Play Mode, actual scene/presentation and runtime input. No APK, headset, comfort or device-performance certification.",
+    "Success": false,
+    "RuntimeExecuted": true,
+    "XrObserved": false,
+    "FocusBypassRequested": false,
+    "CompletedRuns": 0,
+    "Stars": 0,
+    "Archives": 0,
+    "Chips": 0,
+    "OwnedOutfits": 1,
+    "FirstClearRewards": 0,
+    "FundingRuns": 0,
+    "RenderedFrames": 12,
+    "MissedPlayerFrames": 0,
+    "RuntimeErrors": 0,
+    "Warnings": 1,
+    "FramesOver72HzBudget": 7,
+    "GameplaySeconds": 0.0,
+    "MaximumObservedDelta": 0.1599999964237213,
+    "RequestedTimeScale": 8.0,
+    "WallSeconds": 0.3883363330000975,
+    "LiveBudget": {
+        "Frame": 2,
+        "ActiveRenderers": 57,
+        "VisibleRenderers": 54,
+        "ActiveCanvasRenderers": 28,
+        "LineRenderers": 25,
+        "ParticleSystems": 0,
+        "LiveParticles": 0,
+        "UnsupportedRenderers": 0,
+        "InvalidBounds": 0,
+        "ActiveVertices": 502880,
+        "ActiveTriangles": 306159,
+        "VisibleVertices": 466416,
+        "VisibleTriangles": 279889,
+        "UiVertices": 316,
+        "UiTriangles": 158,
+        "UnscaledFrameMilliseconds": 120.36116790771484,
+        "SimulationDelta": 0.1599999964237213,
+        "RunnerCenterAngle": 11.309929847717285,
+        "FrameBudgetMilliseconds": 13.88888931274414,
+        "RunnerPosition": {
+            "x": 0.0,
+            "y": 0.5,
+            "z": 5.5
+        },
+        "RunnerBoundsCenter": {
+            "x": 0.09692952781915665,
+            "y": 1.2097489833831787,
+            "z": 5.482317924499512
+        },
+        "RunnerBoundsSize": {
+            "x": 0.6525349617004395,
+            "y": 1.5348682403564453,
+            "z": 0.5079851150512695
+        },
+        "CameraPosition": {
+            "x": 0.0,
+            "y": 1.600000023841858,
+            "z": 0.0
+        },
+        "RunnerViewport": {
+            "x": 0.5,
+            "y": 0.3623617887496948,
+            "z": 5.5
+        },
+        "ExternalPosition": {
+            "x": 0.0,
+            "y": 0.46000000834465027,
+            "z": 5.5
+        },
+        "ExternalEuler": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsPresent": true,
+        "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+    },
+    "PeakBudget": {
+        "Frame": 0,
+        "ActiveRenderers": 57,
+        "VisibleRenderers": 54,
+        "ActiveCanvasRenderers": 28,
+        "LineRenderers": 25,
+        "ParticleSystems": 0,
+        "LiveParticles": 0,
+        "UnsupportedRenderers": 0,
+        "InvalidBounds": 0,
+        "ActiveVertices": 502880,
+        "ActiveTriangles": 306159,
+        "VisibleVertices": 466416,
+        "VisibleTriangles": 279889,
+        "UiVertices": 316,
+        "UiTriangles": 158,
+        "UnscaledFrameMilliseconds": 120.36116790771484,
+        "SimulationDelta": 0.1599999964237213,
+        "RunnerCenterAngle": 11.309929847717285,
+        "FrameBudgetMilliseconds": 13.88888931274414,
+        "RunnerPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsCenter": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsSize": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "CameraPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerViewport": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "ExternalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "ExternalEuler": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsPresent": false,
+        "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+    },
+    "Runs": [],
+    "Checks": [
+        {
+            "Name": "Actual scene camera exists",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Disposable save hook retained after domain reload",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Runtime store uses disposable directory",
+            "Detail": "/tmp/riftline-acceptance-staged/saves/c08ca78f2d3743f792350397941dfd75",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Fresh runtime progress",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "No AutoTurn assistance",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Catalog acceptance totals",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual runtime and presentation initialized",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual generated scene library populated",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual artwork, 15 animations and outfit materials populated",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual runner mesh instantiated",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Generated music and all feedback sounds contain audio",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "All generated game meshes have native reduced LODs",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual generated platform dimensions",
+            "Detail": "(7.800, 0.360, 6.020)",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Deck top is below runner feet, clear of UI",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Editor acceptance is desktop-only, not a device test",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Independent camera-local snapshot captured",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual mouse click opens Contracts",
+            "Detail": "",
+            "Passed": false,
+            "Frame": 13
+        }
+    ],
+    "Console": [
+        {
+            "Type": "Warning",
+            "Message": "Registering subsystem descriptor with duplicate ID 'PICO Hands' - overwriting previous entry.",
+            "Stack": "UnityEngine.XR.Hands.XRHandSubsystemDescriptor:Register (UnityEngine.XR.Hands.XRHandSubsystemDescriptor/Cinfo)\nByteDance.PICO.XR.PXR_HandSubSystem:RegisterDescriptor () (at ./Library/PackageCache/com.bytedance.pico.xr@4e028cc115f0/Runtime/Scripts/Hand/PXR_HandSubsystem.cs:57)\n",
+            "Frame": 0
+        }
+    ],
+    "Screenshots": [],
+    "Limitations": [
+        "Production RunAutopilot reads event metadata; this is integration acceptance, not an independent Core solvability proof.",
+        "Geometry is dynamically counted by instance and game-camera frustum eligibility, not occlusion, draw calls, GPU timing or PICO performance.",
+        "Particle counts are observed; particle-generated geometry is excluded and explicitly counted as unsupported.",
+        "Screenshot requests require nonempty files; visual correctness still requires human inspection.",
+        "Queued keyboard events exercise real InputActions. Physical XR stick, controller rays/drag, worn duration and headset comfort are not certified.",
+        "No mutations of events, scores, energy, unlocks, lane positions, duration or AutoTurn assistance are permitted."
+    ]
+}

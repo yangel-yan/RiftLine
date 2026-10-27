@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0ba91bacf6c4807837134852ff0f27, type: 3}
+  m_Name: RiftlineHandControlSettings
+  m_EditorClassIdentifier: Assembly-CSharp::Riftline.RiftlineHandControlSettings
+  Thresholds:
+    PinchPress: 0.7
+    PinchRelease: 0.25
+    DirectionDistance: 0.035
+    DirectionWindow: 0.55
+    DominantAxisRatio: 1.12
+    RearmCooldown: 0.08
+    NeutralStability: 0.05
+    PhaseHold: 0.18
+    PauseHold: 0.45
+    TrackingCancel: 0.1
+    AutoPause: 0.3
+    RecoveryStability: 0.3
+  OpenShape: {fileID: 11400000, guid: 0f752c81ce589475fb869e2c2475a86d, type: 2}
+  FistShape: {fileID: 11400000, guid: 6a8bbe983579c457faac88120749fe5d, type: 2}
+  PausePose: {fileID: 11400000, guid: 03681ef20343c410b9556d48e68f350c, type: 2}

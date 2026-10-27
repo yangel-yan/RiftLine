@@ -1,0 +1,69 @@
+{
+  "Method": "Identical normalized ROIs on frozen first-contract view. After reference explicitly matches baseline elapsed=.8052086, distance=5.236449, lane=1, camera=(0,1.6,0), identity rotation. Sampled at 512 px width. Rec.709 linear-light luminance after sRGB decoding; UI excluded from road/runner ROIs. Animated scenery can differ.",
+  "GameplayWitnessSeparate": true,
+  "Regions": {
+    "GameplayBelowHud": {
+      "NormalizedROI": [
+        0,
+        0.44,
+        1,
+        1
+      ],
+      "Before": {
+        "MeanLinearLuminance": 0.037325,
+        "MedianLinearLuminance": 0.006691,
+        "DarkFractionBelow0_015": 0.733426,
+        "BrightFractionAbove0_98": 0.0
+      },
+      "After": {
+        "MeanLinearLuminance": 0.132937,
+        "MedianLinearLuminance": 0.077776,
+        "DarkFractionBelow0_015": 0.039296,
+        "BrightFractionAbove0_98": 0.0
+      },
+      "MedianRatio": 11.624
+    },
+    "Road": {
+      "NormalizedROI": [
+        0.22,
+        0.66,
+        0.78,
+        0.9
+      ],
+      "Before": {
+        "MeanLinearLuminance": 0.029544,
+        "MedianLinearLuminance": 0.006049,
+        "DarkFractionBelow0_015": 0.82429,
+        "BrightFractionAbove0_98": 0.0
+      },
+      "After": {
+        "MeanLinearLuminance": 0.105802,
+        "MedianLinearLuminance": 0.076478,
+        "DarkFractionBelow0_015": 0.030963,
+        "BrightFractionAbove0_98": 0.0
+      },
+      "MedianRatio": 12.643
+    },
+    "Runner": {
+      "NormalizedROI": [
+        0.47,
+        0.46,
+        0.55,
+        0.66
+      ],
+      "Before": {
+        "MeanLinearLuminance": 0.051034,
+        "MedianLinearLuminance": 0.009011,
+        "DarkFractionBelow0_015": 0.615572,
+        "BrightFractionAbove0_98": 0.0
+      },
+      "After": {
+        "MeanLinearLuminance": 0.173727,
+        "MedianLinearLuminance": 0.09599,
+        "DarkFractionBelow0_015": 0.052486,
+        "BrightFractionAbove0_98": 0.0
+      },
+      "MedianRatio": 10.653
+    }
+  }
+}

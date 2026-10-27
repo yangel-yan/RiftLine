@@ -1,0 +1,13 @@
+{
+    "Success": true,
+    "Playing": false,
+    "Compiling": false,
+    "IsolatedSaveCleared": true,
+    "AcceptanceCleared": true,
+    "TemporaryInputsRemoved": true,
+    "SceneSaved": true,
+    "EnterPlayModeOptionsEnabled": false,
+    "EnterPlayModeOptions": "None",
+    "Scene": "Assets/Riftline/Scenes/Riftline.unity",
+    "UnityVersion": "6000.6.7f1"
+}

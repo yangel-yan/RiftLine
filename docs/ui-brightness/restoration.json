@@ -1,0 +1,17 @@
+{
+    "Success": true,
+    "Playing": false,
+    "Compiling": false,
+    "SceneSaved": true,
+    "StatsRestored": true,
+    "TemporaryInputsRemoved": true,
+    "SaveHooksCleared": true,
+    "AcceptanceCleared": true,
+    "OrdinarySaveUnchanged": true,
+    "EnterPlayOptionsEnabled": false,
+    "EnterPlayOptions": "None",
+    "Scene": "Assets/Riftline/Scenes/Riftline.unity",
+    "InputBackground": "ResetAndDisableNonBackgroundDevices",
+    "InputEditorBehavior": "PointersAndKeyboardsRespectGameViewFocus",
+    "OrdinarySaveFiles": 3
+}

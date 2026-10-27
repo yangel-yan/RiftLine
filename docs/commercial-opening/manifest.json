@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "scope": "Unity Editor commercial opening upgrade; no hardware, retention or certification claim",
+  "behavioralAcceptance": true,
+  "mainRawValidationTailFailed": true,
+  "mainTailResolution": "Separate actual mouse/Enter retry recovery report passed. Raw failed report preserved.",
+  "presentationTests": 8,
+  "coreGroups": 95,
+  "independentWitnesses": 504,
+  "completeSequences": 20000,
+  "technicalPreviewChecks": 251,
+  "sources": [
+    {
+      "path": "Assets/Riftline/Scripts/Core/RiftlineOpeningPresentation.cs",
+      "sha256": "919887e59dc3bab7332020833a786abe56e28d0c20d13e321ede30c4b773a96c"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/Runtime/RiftlineRailArchitecture.cs",
+      "sha256": "eac6b8b06d5a9b655333a774d3860cd0e16a1962c0fa71244192a1042835c4c5"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/Runtime/RiftlineOpeningDirector.cs",
+      "sha256": "b80fa4979c65960a962f982a4c8c3a28b718d692a8184d8d7e4c3c2fd3c1f78b"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/Runtime/RiftlineWorld.cs",
+      "sha256": "872739e523e27ce011e05a2cb806f13bed269af5c61e1b010ef5aded67c53b26"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/Runtime/RiftlineGame.cs",
+      "sha256": "b19dc56f02b4ab8553223654bb8a9b47bcd7bc2bb3f7b6871da41bad48a8fbe5"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/Runtime/RiftlineAudio.cs",
+      "sha256": "d4c2dfa0c97fda7f06dc799a87af0dfd855f3ad84db0b5e71545dd830a91c2ef"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/UI/RiftlineUI.cs",
+      "sha256": "6f0415b7c7ad6f7894b97a0f10ab223acb82d407c45be0e79fd9137e1d465a35"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/UI/RiftlineRunHud.cs",
+      "sha256": "3aec262e5f036017d1d8231a913708bc802139ea36d52c49ca3d3d4bb53a60ce"
+    },
+    {
+      "path": "Assets/Riftline/Scripts/UI/RiftlineUILocalization.cs",
+      "sha256": "7708ca1c1f552004697cbb6cce4ba380e49c81fc55d4766ae024f5b6897cf3a4"
+    }
+  ],
+  "video": {
+    "path": "editor-playthrough.mp4",
+    "bytes": 82855028,
+    "sha256": "e9c24a57ddb05c7920276112622171ec520f0377f16f1b2301393ea8b69b97ae",
+    "duration": 71,
+    "frames": 2130,
+    "audioVerified": true
+  }
+}

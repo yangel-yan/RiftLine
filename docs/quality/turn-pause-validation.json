@@ -1,0 +1,4754 @@
+{
+    "Session": "e393c51bebd340f7bd54bf445b2915e1",
+    "Scenario": "PauseAtTurn",
+    "Status": "Passed",
+    "Stage": "Finished",
+    "Message": "Three actual alignment-mode PauseAtTurn runs completed.",
+    "StartedUtc": "2026-10-26T08:12:33.8258730Z",
+    "UpdatedUtc": "2026-10-26T08:14:31.0391690Z",
+    "SaveDirectory": "/tmp/riftline-acceptance-staged/saves/1638f245762c4db38f9bcd98df38356f",
+    "Scene": "Assets/Riftline/Scenes/Riftline.unity",
+    "UnityVersion": "6000.6.7f1",
+    "EvidenceScope": "Real Unity Editor Play Mode, actual scene/presentation and runtime input. No APK, headset, comfort or device-performance certification.",
+    "Success": true,
+    "RuntimeExecuted": true,
+    "XrObserved": false,
+    "FocusBypassRequested": false,
+    "CompletedRuns": 3,
+    "Stars": 9,
+    "Archives": 3,
+    "Chips": 798,
+    "OwnedOutfits": 1,
+    "FirstClearRewards": 600,
+    "FundingRuns": 0,
+    "RenderedFrames": 8192,
+    "MissedPlayerFrames": 0,
+    "RuntimeErrors": 0,
+    "Warnings": 1,
+    "FramesOver72HzBudget": 3482,
+    "GameplaySeconds": 612.0,
+    "MaximumObservedDelta": 0.1599999964237213,
+    "RequestedTimeScale": 8.0,
+    "WallSeconds": 117.21288233299981,
+    "LiveBudget": {
+        "Frame": 8191,
+        "ActiveRenderers": 58,
+        "VisibleRenderers": 52,
+        "ActiveCanvasRenderers": 61,
+        "LineRenderers": 25,
+        "ParticleSystems": 0,
+        "LiveParticles": 0,
+        "UnsupportedRenderers": 0,
+        "InvalidBounds": 0,
+        "ActiveVertices": 516432,
+        "ActiveTriangles": 316390,
+        "VisibleVertices": 458527,
+        "VisibleTriangles": 278782,
+        "UiVertices": 504,
+        "UiTriangles": 252,
+        "UnscaledFrameMilliseconds": 13.211585998535156,
+        "SimulationDelta": 0.07999999076128006,
+        "RunnerCenterAngle": 11.309929847717285,
+        "FrameBudgetMilliseconds": 13.88888931274414,
+        "RunnerPosition": {
+            "x": -5.500000953674316,
+            "y": 0.5,
+            "z": 2.599996566772461
+        },
+        "RunnerBoundsCenter": {
+            "x": -5.564973831176758,
+            "y": 1.2114442586898804,
+            "z": 2.70184588432312
+        },
+        "RunnerBoundsSize": {
+            "x": 0.5558114051818848,
+            "y": 1.5353691577911377,
+            "z": 0.6556763648986816
+        },
+        "CameraPosition": {
+            "x": 0.0,
+            "y": 1.600000023841858,
+            "z": 0.0
+        },
+        "RunnerViewport": {
+            "x": 0.6615336537361145,
+            "y": 0.3623617887496948,
+            "z": 5.5
+        },
+        "ExternalPosition": {
+            "x": 1683.9632568359375,
+            "y": 0.46000000834465027,
+            "z": 0.0008029763121157885
+        },
+        "ExternalEuler": {
+            "x": 0.0,
+            "y": 269.9999694824219,
+            "z": 0.0
+        },
+        "RunnerBoundsPresent": true,
+        "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+    },
+    "PeakBudget": {
+        "Frame": 0,
+        "ActiveRenderers": 97,
+        "VisibleRenderers": 91,
+        "ActiveCanvasRenderers": 61,
+        "LineRenderers": 41,
+        "ParticleSystems": 0,
+        "LiveParticles": 0,
+        "UnsupportedRenderers": 0,
+        "InvalidBounds": 0,
+        "ActiveVertices": 778336,
+        "ActiveTriangles": 521283,
+        "VisibleVertices": 720431,
+        "VisibleTriangles": 483675,
+        "UiVertices": 1300,
+        "UiTriangles": 650,
+        "UnscaledFrameMilliseconds": 183.34182739257813,
+        "SimulationDelta": 0.1599999964237213,
+        "RunnerCenterAngle": 11.309964179992676,
+        "FrameBudgetMilliseconds": 13.88888931274414,
+        "RunnerPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsCenter": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsSize": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "CameraPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerViewport": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "ExternalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "ExternalEuler": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "RunnerBoundsPresent": false,
+        "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+    },
+    "Runs": [
+        {
+            "Name": "primary-00",
+            "Mode": "Contract",
+            "Status": "Settled",
+            "FailureReason": "",
+            "SettlementId": "6fe1e7939910486391f4859c8eee6192",
+            "ContractId": 0,
+            "PreferredRoute": -1,
+            "AlignmentMode": 0,
+            "Commands": 39,
+            "RenderedFrames": 2398,
+            "Seed": 3,
+            "Score": 52426,
+            "PickupChips": 56,
+            "FirstClearReward": 200,
+            "Stars": 3,
+            "NearMisses": 14,
+            "Turns": 5,
+            "PhaseUses": 0,
+            "ChipsBefore": 0,
+            "ChipsAfter": 256,
+            "TutorialLessons": 6,
+            "TutorialRecoveries": 0,
+            "LeftForks": 0,
+            "RightForks": 0,
+            "FramesOver72HzBudget": 1012,
+            "HeightRenderedFrames": 0,
+            "BossRenderedFrames": 0,
+            "FrameMillisecondsTotal": 33825.807326007634,
+            "Victory": true,
+            "UsedAutoTurn": false,
+            "Durable": true,
+            "PauseAtTurnVerified": true,
+            "PauseOnSlopeVerified": false,
+            "SeedObserved": true,
+            "BossCaptureRequested": false,
+            "HeightCaptureRequested": false,
+            "Elapsed": 180.0,
+            "Distance": 1299.5999755859375,
+            "BossObservedSeconds": 0.0,
+            "MaximumDelta": 0.07999999076128006,
+            "MaximumGroundHeight": 0.0,
+            "MinimumGroundHeight": 0.0,
+            "WallSeconds": 33.82295870899998,
+            "ArchivesAcquired": [
+                0
+            ],
+            "Trace": [
+                {
+                    "Frame": 119,
+                    "Lane": 1,
+                    "Elapsed": 0.8356172442436218,
+                    "Distance": 5.434305191040039,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 157,
+                    "Lane": 0,
+                    "Elapsed": 3.8756167888641357,
+                    "Distance": 25.251590728759766,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 218,
+                    "Lane": 1,
+                    "Elapsed": 8.755616188049316,
+                    "Distance": 57.2181510925293,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 256,
+                    "Lane": 1,
+                    "Elapsed": 11.795616149902344,
+                    "Distance": 77.2280502319336,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 309,
+                    "Lane": 1,
+                    "Elapsed": 16.035615921020508,
+                    "Distance": 105.26006317138672,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 445,
+                    "Lane": 1,
+                    "Elapsed": 21.875614166259766,
+                    "Distance": 144.1056671142578,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 595,
+                    "Lane": 0,
+                    "Elapsed": 33.86689376831055,
+                    "Distance": 224.72267150878906,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 632,
+                    "Lane": 1,
+                    "Elapsed": 36.8268928527832,
+                    "Distance": 244.7996826171875,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 670,
+                    "Lane": 0,
+                    "Elapsed": 39.86689376831055,
+                    "Distance": 265.4922790527344,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 731,
+                    "Lane": 1,
+                    "Elapsed": 44.746891021728516,
+                    "Distance": 298.8639221191406,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 769,
+                    "Lane": 1,
+                    "Elapsed": 47.78689193725586,
+                    "Distance": 319.7491455078125,
+                    "Height": 0.0,
+                    "Energy": 0.6000000238418579,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 822,
+                    "Lane": 1,
+                    "Elapsed": 52.02688980102539,
+                    "Distance": 349.0019836425781,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 895,
+                    "Lane": 1,
+                    "Elapsed": 57.86688995361328,
+                    "Distance": 389.5290832519531,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1045,
+                    "Lane": 0,
+                    "Elapsed": 69.86688995361328,
+                    "Distance": 473.6603088378906,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1082,
+                    "Lane": 1,
+                    "Elapsed": 72.82688903808594,
+                    "Distance": 494.5898132324219,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1120,
+                    "Lane": 0,
+                    "Elapsed": 75.86688995361328,
+                    "Distance": 516.1578979492188,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1181,
+                    "Lane": 1,
+                    "Elapsed": 80.74688720703125,
+                    "Distance": 550.9349975585938,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1219,
+                    "Lane": 1,
+                    "Elapsed": 83.7868881225586,
+                    "Distance": 572.6957397460938,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1272,
+                    "Lane": 1,
+                    "Elapsed": 88.02688598632813,
+                    "Distance": 603.169677734375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1345,
+                    "Lane": 1,
+                    "Elapsed": 93.86688995361328,
+                    "Distance": 645.3787231445313,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1495,
+                    "Lane": 0,
+                    "Elapsed": 105.86688232421875,
+                    "Distance": 732.9659423828125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1532,
+                    "Lane": 1,
+                    "Elapsed": 108.8268814086914,
+                    "Distance": 754.7479248046875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1631,
+                    "Lane": 0,
+                    "Elapsed": 116.74688720703125,
+                    "Distance": 813.3740844726563,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1682,
+                    "Lane": 0,
+                    "Elapsed": 120.8268814086914,
+                    "Distance": 843.7713012695313,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1685,
+                    "Lane": 1,
+                    "Elapsed": 121.06688690185547,
+                    "Distance": 845.5634765625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1720,
+                    "Lane": 1,
+                    "Elapsed": 123.86688232421875,
+                    "Distance": 866.5067749023438,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1781,
+                    "Lane": 0,
+                    "Elapsed": 128.74688720703125,
+                    "Distance": 903.1577758789063,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1832,
+                    "Lane": 0,
+                    "Elapsed": 132.82688903808594,
+                    "Distance": 933.9466552734375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1835,
+                    "Lane": 1,
+                    "Elapsed": 133.06687927246094,
+                    "Distance": 935.7619018554688,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1894,
+                    "Lane": 1,
+                    "Elapsed": 137.78688049316406,
+                    "Distance": 971.5556030273438,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1916,
+                    "Lane": 1,
+                    "Elapsed": 139.546875,
+                    "Distance": 984.9480590820313,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1931,
+                    "Lane": 0,
+                    "Elapsed": 140.74688720703125,
+                    "Distance": 994.0934448242188,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 1982,
+                    "Lane": 0,
+                    "Elapsed": 144.82687377929688,
+                    "Distance": 1025.2740478515625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2006,
+                    "Lane": 1,
+                    "Elapsed": 146.74688720703125,
+                    "Distance": 1039.9932861328125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2081,
+                    "Lane": 1,
+                    "Elapsed": 152.74688720703125,
+                    "Distance": 1086.18115234375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2135,
+                    "Lane": 1,
+                    "Elapsed": 157.06687927246094,
+                    "Distance": 1119.61474609375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2231,
+                    "Lane": 1,
+                    "Elapsed": 164.7418212890625,
+                    "Distance": 1179.3812255859375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2285,
+                    "Lane": 1,
+                    "Elapsed": 169.0618133544922,
+                    "Distance": 1213.2293701171875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2344,
+                    "Lane": 1,
+                    "Elapsed": 173.7818145751953,
+                    "Distance": 1250.3822021484375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                }
+            ],
+            "PeakBudget": {
+                "Frame": 0,
+                "ActiveRenderers": 97,
+                "VisibleRenderers": 91,
+                "ActiveCanvasRenderers": 26,
+                "LineRenderers": 41,
+                "ParticleSystems": 0,
+                "LiveParticles": 0,
+                "UnsupportedRenderers": 0,
+                "InvalidBounds": 0,
+                "ActiveVertices": 778336,
+                "ActiveTriangles": 521283,
+                "VisibleVertices": 720431,
+                "VisibleTriangles": 483675,
+                "UiVertices": 344,
+                "UiTriangles": 172,
+                "UnscaledFrameMilliseconds": 15.395501136779785,
+                "SimulationDelta": 0.07999999076128006,
+                "RunnerCenterAngle": 11.309929847717285,
+                "FrameBudgetMilliseconds": 13.88888931274414,
+                "RunnerPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsCenter": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "CameraPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerViewport": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "ExternalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "ExternalEuler": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsPresent": false,
+                "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+            },
+            "LastBudget": {
+                "Frame": 2461,
+                "ActiveRenderers": 57,
+                "VisibleRenderers": 52,
+                "ActiveCanvasRenderers": 14,
+                "LineRenderers": 25,
+                "ParticleSystems": 0,
+                "LiveParticles": 0,
+                "UnsupportedRenderers": 0,
+                "InvalidBounds": 0,
+                "ActiveVertices": 502880,
+                "ActiveTriangles": 306159,
+                "VisibleVertices": 457198,
+                "VisibleTriangles": 276901,
+                "UiVertices": 108,
+                "UiTriangles": 54,
+                "UnscaledFrameMilliseconds": 13.738335609436035,
+                "SimulationDelta": 0.07999999076128006,
+                "RunnerCenterAngle": 11.309929847717285,
+                "FrameBudgetMilliseconds": 13.88888931274414,
+                "RunnerPosition": {
+                    "x": 5.499999523162842,
+                    "y": 0.5,
+                    "z": 9.5367431640625e-7
+                },
+                "RunnerBoundsCenter": {
+                    "x": 5.564971923828125,
+                    "y": 1.2114442586898804,
+                    "z": -0.10184797644615173
+                },
+                "RunnerBoundsSize": {
+                    "x": 0.5558114051818848,
+                    "y": 1.5353693962097168,
+                    "z": 0.6556761860847473
+                },
+                "CameraPosition": {
+                    "x": 0.0,
+                    "y": 1.600000023841858,
+                    "z": 0.0
+                },
+                "RunnerViewport": {
+                    "x": 0.5,
+                    "y": 0.3623617887496948,
+                    "z": 5.5
+                },
+                "ExternalPosition": {
+                    "x": -160.76597595214844,
+                    "y": 0.46000000834465027,
+                    "z": -138.16807556152344
+                },
+                "ExternalEuler": {
+                    "x": 0.0,
+                    "y": 2.43830442059334e-7,
+                    "z": 0.0
+                },
+                "RunnerBoundsPresent": true,
+                "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+            },
+            "BudgetSamples": [
+                {
+                    "Frame": 91,
+                    "ActiveRenderers": 83,
+                    "VisibleRenderers": 80,
+                    "ActiveCanvasRenderers": 24,
+                    "LineRenderers": 36,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 669327,
+                    "ActiveTriangles": 437586,
+                    "VisibleVertices": 632863,
+                    "VisibleTriangles": 411316,
+                    "UiVertices": 260,
+                    "UiTriangles": 130,
+                    "UnscaledFrameMilliseconds": 13.420245170593262,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 0.0,
+                        "y": 0.5,
+                        "z": 5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 0.09858573228120804,
+                        "y": 1.210464358329773,
+                        "z": 5.482282638549805
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.6620508432388306,
+                        "y": 1.5361725091934204,
+                        "z": 0.5109133720397949
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 0.0,
+                        "y": 0.46000000834465027,
+                        "z": 5.5
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 391,
+                    "ActiveRenderers": 66,
+                    "VisibleRenderers": 12,
+                    "ActiveCanvasRenderers": 26,
+                    "LineRenderers": 27,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 581789,
+                    "ActiveTriangles": 367592,
+                    "VisibleVertices": 93147,
+                    "VisibleTriangles": 57985,
+                    "UiVertices": 304,
+                    "UiTriangles": 152,
+                    "UnscaledFrameMilliseconds": 14.659041404724121,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 0.360134482383728,
+                        "y": 0.5,
+                        "z": 5.488196849822998
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 0.47902435064315796,
+                        "y": 1.2178539037704468,
+                        "z": 5.399938583374023
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.8111692667007446,
+                        "y": 1.407252311706543,
+                        "z": 0.6810259819030762
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 0.12350063025951385,
+                        "y": 0.46000000834465027,
+                        "z": -112.80780029296875
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 691,
+                    "ActiveRenderers": 79,
+                    "VisibleRenderers": 73,
+                    "ActiveCanvasRenderers": 23,
+                    "LineRenderers": 34,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 649735,
+                    "ActiveTriangles": 419414,
+                    "VisibleVertices": 579647,
+                    "VisibleTriangles": 373482,
+                    "UiVertices": 288,
+                    "UiTriangles": 144,
+                    "UnscaledFrameMilliseconds": 11.798746109008789,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 5.500000476837158,
+                        "y": 0.5,
+                        "z": -4.76837158203125e-7
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 5.402551651000977,
+                        "y": 1.2180800437927246,
+                        "z": -0.08807902783155441
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.145240306854248,
+                        "y": 1.3353689908981323,
+                        "z": 0.5654244422912598
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623618185520172,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -153.1633758544922,
+                        "y": 0.46000000834465027,
+                        "z": -118.29600524902344
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 991,
+                    "ActiveRenderers": 77,
+                    "VisibleRenderers": 70,
+                    "ActiveCanvasRenderers": 25,
+                    "LineRenderers": 32,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 641436,
+                    "ActiveTriangles": 422921,
+                    "VisibleVertices": 571308,
+                    "VisibleTriangles": 376963,
+                    "UiVertices": 300,
+                    "UiTriangles": 150,
+                    "UnscaledFrameMilliseconds": 15.050254821777344,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 2.59999942779541,
+                        "y": 0.5,
+                        "z": -5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 2.4975647926330566,
+                        "y": 1.2076232433319092,
+                        "z": -5.403243064880371
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.6200954914093018,
+                        "y": 1.3936735391616821,
+                        "z": 1.0817289352416992
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.3384662866592407,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -244.3679962158203,
+                        "y": 0.46000000834465027,
+                        "z": -43.21965789794922
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 1291,
+                    "ActiveRenderers": 67,
+                    "VisibleRenderers": 16,
+                    "ActiveCanvasRenderers": 26,
+                    "LineRenderers": 28,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 581811,
+                    "ActiveTriangles": 367606,
+                    "VisibleVertices": 122224,
+                    "VisibleTriangles": 76193,
+                    "UiVertices": 344,
+                    "UiTriangles": 172,
+                    "UnscaledFrameMilliseconds": 12.838994979858398,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -4.808252924703993e-7,
+                        "y": 0.5,
+                        "z": -5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -0.08307690918445587,
+                        "y": 1.2163341045379639,
+                        "z": -5.400278091430664
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.5402045249938965,
+                        "y": 1.3194396495819092,
+                        "z": 1.1690382957458496
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -244.36798095703125,
+                        "y": 0.46000000834465027,
+                        "z": 127.6693115234375
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 1591,
+                    "ActiveRenderers": 79,
+                    "VisibleRenderers": 73,
+                    "ActiveCanvasRenderers": 11,
+                    "LineRenderers": 34,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 649735,
+                    "ActiveTriangles": 419414,
+                    "VisibleVertices": 591830,
+                    "VisibleTriangles": 381806,
+                    "UiVertices": 168,
+                    "UiTriangles": 84,
+                    "UnscaledFrameMilliseconds": 12.956462860107422,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.5,
+                        "y": 0.5,
+                        "z": -2.6000006198883057
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.370580673217773,
+                        "y": 1.2177294492721558,
+                        "z": -2.4858243465423584
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.0119457244873047,
+                        "y": 1.4323151111602783,
+                        "z": 0.7184281349182129
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.3384662866592407,
+                        "y": 0.3623618185520172,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -77.64167785644531,
+                        "y": 0.46000000834465027,
+                        "z": 136.4399871826172
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 1891,
+                    "ActiveRenderers": 97,
+                    "VisibleRenderers": 91,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 41,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 778336,
+                    "ActiveTriangles": 521283,
+                    "VisibleVertices": 720431,
+                    "VisibleTriangles": 483675,
+                    "UiVertices": 196,
+                    "UiTriangles": 98,
+                    "UnscaledFrameMilliseconds": 13.026750564575195,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 9.616505849407986e-7,
+                        "y": 0.5,
+                        "z": 5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 0.11539098620414734,
+                        "y": 1.1879538297653198,
+                        "z": 5.511872291564941
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7214258313179016,
+                        "y": 1.4154850244522095,
+                        "z": 0.7651896476745605
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -1.7520484924316406,
+                        "y": 0.46000000834465027,
+                        "z": 32.22465515136719
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 2191,
+                    "ActiveRenderers": 68,
+                    "VisibleRenderers": 63,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 30,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 573373,
+                    "ActiveTriangles": 355234,
+                    "VisibleVertices": 515508,
+                    "VisibleTriangles": 317652,
+                    "UiVertices": 192,
+                    "UiTriangles": 96,
+                    "UnscaledFrameMilliseconds": 13.862627983093262,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 5.499999523162842,
+                        "y": 0.5,
+                        "z": 9.5367431640625e-7
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 5.467518329620361,
+                        "y": 1.1836695671081543,
+                        "z": -0.10938038676977158
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.0349454879760742,
+                        "y": 1.4211432933807373,
+                        "z": 0.6166122555732727
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -16.0723876953125,
+                        "y": 0.46000000834465027,
+                        "z": -138.1680450439453
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 2.43830442059334e-7,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                }
+            ]
+        },
+        {
+            "Name": "primary-01",
+            "Mode": "Contract",
+            "Status": "Settled",
+            "FailureReason": "",
+            "SettlementId": "dccdd1ad329f4711822f272fc7a85259",
+            "ContractId": 1,
+            "PreferredRoute": -1,
+            "AlignmentMode": 1,
+            "Commands": 56,
+            "RenderedFrames": 2717,
+            "Seed": 4,
+            "Score": 77626,
+            "PickupChips": 67,
+            "FirstClearReward": 200,
+            "Stars": 3,
+            "NearMisses": 24,
+            "Turns": 6,
+            "PhaseUses": 3,
+            "ChipsBefore": 256,
+            "ChipsAfter": 523,
+            "TutorialLessons": 1,
+            "TutorialRecoveries": 0,
+            "LeftForks": 0,
+            "RightForks": 0,
+            "FramesOver72HzBudget": 1049,
+            "HeightRenderedFrames": 0,
+            "BossRenderedFrames": 0,
+            "FrameMillisecondsTotal": 38275.02014674246,
+            "Victory": true,
+            "UsedAutoTurn": false,
+            "Durable": true,
+            "PauseAtTurnVerified": true,
+            "PauseOnSlopeVerified": false,
+            "SeedObserved": true,
+            "BossCaptureRequested": false,
+            "HeightCaptureRequested": false,
+            "Elapsed": 204.0,
+            "Distance": 1492.4639892578125,
+            "BossObservedSeconds": 0.0,
+            "MaximumDelta": 0.07999999076128006,
+            "MaximumGroundHeight": 0.0,
+            "MinimumGroundHeight": 0.0,
+            "WallSeconds": 38.26999599999999,
+            "ArchivesAcquired": [
+                1
+            ],
+            "Trace": [
+                {
+                    "Frame": 2578,
+                    "Lane": 1,
+                    "Elapsed": 5.7599992752075195,
+                    "Distance": 37.57270431518555,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Phase",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2615,
+                    "Lane": 1,
+                    "Elapsed": 8.719999313354492,
+                    "Distance": 56.98414611816406,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2669,
+                    "Lane": 1,
+                    "Elapsed": 13.039998054504395,
+                    "Distance": 85.44015502929688,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2828,
+                    "Lane": 1,
+                    "Elapsed": 20.799997329711914,
+                    "Distance": 136.9305419921875,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2881,
+                    "Lane": 1,
+                    "Elapsed": 25.039997100830078,
+                    "Distance": 165.2679901123047,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 2940,
+                    "Lane": 1,
+                    "Elapsed": 29.75680923461914,
+                    "Distance": 196.9611358642578,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3090,
+                    "Lane": 1,
+                    "Elapsed": 41.75680923461914,
+                    "Distance": 278.3937683105469,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Phase",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3104,
+                    "Lane": 1,
+                    "Elapsed": 42.876808166503906,
+                    "Distance": 286.0529479980469,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3127,
+                    "Lane": 2,
+                    "Elapsed": 44.7168083190918,
+                    "Distance": 298.6576232910156,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3165,
+                    "Lane": 2,
+                    "Elapsed": 47.75550842285156,
+                    "Distance": 319.5331726074219,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3179,
+                    "Lane": 2,
+                    "Elapsed": 48.87550735473633,
+                    "Distance": 327.2460632324219,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3181,
+                    "Lane": 1,
+                    "Elapsed": 49.03550720214844,
+                    "Distance": 328.3487243652344,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3216,
+                    "Lane": 1,
+                    "Elapsed": 51.835506439208984,
+                    "Distance": 347.678466796875,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3278,
+                    "Lane": 2,
+                    "Elapsed": 56.79349136352539,
+                    "Distance": 382.0596923828125,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3315,
+                    "Lane": 2,
+                    "Elapsed": 59.7511100769043,
+                    "Distance": 402.6629943847656,
+                    "Height": 0.0,
+                    "Energy": 0.6000000238418579,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3329,
+                    "Lane": 2,
+                    "Elapsed": 60.87111282348633,
+                    "Distance": 410.4833984375,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3331,
+                    "Lane": 1,
+                    "Elapsed": 61.03111267089844,
+                    "Distance": 411.6014099121094,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3404,
+                    "Lane": 1,
+                    "Elapsed": 66.87110900878906,
+                    "Distance": 452.5491943359375,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3479,
+                    "Lane": 2,
+                    "Elapsed": 72.87110900878906,
+                    "Distance": 494.90301513671875,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3540,
+                    "Lane": 1,
+                    "Elapsed": 77.75110626220703,
+                    "Distance": 529.5631713867188,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Phase",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3554,
+                    "Lane": 1,
+                    "Elapsed": 78.87110900878906,
+                    "Distance": 537.5447998046875,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3577,
+                    "Lane": 0,
+                    "Elapsed": 80.71110534667969,
+                    "Distance": 550.6793212890625,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3629,
+                    "Lane": 0,
+                    "Elapsed": 84.87110900878906,
+                    "Distance": 580.474609375,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3631,
+                    "Lane": 1,
+                    "Elapsed": 85.0311050415039,
+                    "Distance": 581.6233520507813,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3666,
+                    "Lane": 1,
+                    "Elapsed": 87.83110809326172,
+                    "Distance": 601.7593994140625,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3728,
+                    "Lane": 0,
+                    "Elapsed": 92.79110717773438,
+                    "Distance": 637.5829467773438,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3779,
+                    "Lane": 0,
+                    "Elapsed": 96.87110900878906,
+                    "Distance": 667.1982421875,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3781,
+                    "Lane": 1,
+                    "Elapsed": 97.0311050415039,
+                    "Distance": 668.3623657226563,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3840,
+                    "Lane": 1,
+                    "Elapsed": 101.75110626220703,
+                    "Distance": 702.7953491210938,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3854,
+                    "Lane": 1,
+                    "Elapsed": 102.87110900878906,
+                    "Distance": 710.9920654296875,
+                    "Height": 0.0,
+                    "Energy": 0.6000000238418579,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3877,
+                    "Lane": 0,
+                    "Elapsed": 104.71110534667969,
+                    "Distance": 724.4798583984375,
+                    "Height": 0.0,
+                    "Energy": 0.6000000238418579,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3929,
+                    "Lane": 0,
+                    "Elapsed": 108.87110900878906,
+                    "Distance": 755.0738525390625,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 3953,
+                    "Lane": 1,
+                    "Elapsed": 110.79110717773438,
+                    "Distance": 769.2408447265625,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4027,
+                    "Lane": 1,
+                    "Elapsed": 116.71110534667969,
+                    "Distance": 813.1080932617188,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4081,
+                    "Lane": 1,
+                    "Elapsed": 121.01361083984375,
+                    "Distance": 845.1656494140625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4178,
+                    "Lane": 1,
+                    "Elapsed": 128.7736053466797,
+                    "Distance": 903.3590698242188,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4231,
+                    "Lane": 1,
+                    "Elapsed": 133.01361083984375,
+                    "Distance": 935.3589477539063,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4290,
+                    "Lane": 1,
+                    "Elapsed": 137.73361206054688,
+                    "Distance": 971.150634765625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4379,
+                    "Lane": 1,
+                    "Elapsed": 144.85360717773438,
+                    "Distance": 1025.478759765625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4478,
+                    "Lane": 2,
+                    "Elapsed": 152.7736053466797,
+                    "Distance": 1086.3875732421875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4515,
+                    "Lane": 2,
+                    "Elapsed": 155.73361206054688,
+                    "Distance": 1109.2802734375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4529,
+                    "Lane": 2,
+                    "Elapsed": 156.85360717773438,
+                    "Distance": 1117.960693359375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4531,
+                    "Lane": 1,
+                    "Elapsed": 157.01361083984375,
+                    "Distance": 1119.2015380859375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4566,
+                    "Lane": 1,
+                    "Elapsed": 159.81361389160156,
+                    "Distance": 1140.949951171875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4628,
+                    "Lane": 2,
+                    "Elapsed": 164.7736053466797,
+                    "Distance": 1179.6297607421875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4665,
+                    "Lane": 2,
+                    "Elapsed": 167.73361206054688,
+                    "Distance": 1202.806640625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4679,
+                    "Lane": 2,
+                    "Elapsed": 168.85360717773438,
+                    "Distance": 1211.5946044921875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4681,
+                    "Lane": 1,
+                    "Elapsed": 169.01361083984375,
+                    "Distance": 1212.850830078125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4754,
+                    "Lane": 1,
+                    "Elapsed": 174.84317016601563,
+                    "Distance": 1258.7611083984375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4829,
+                    "Lane": 2,
+                    "Elapsed": 180.84315490722656,
+                    "Distance": 1306.297607421875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4834,
+                    "Lane": 1,
+                    "Elapsed": 181.2431640625,
+                    "Distance": 1309.4769287109375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4928,
+                    "Lane": 0,
+                    "Elapsed": 188.76316833496094,
+                    "Distance": 1369.4866943359375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4979,
+                    "Lane": 0,
+                    "Elapsed": 192.84315490722656,
+                    "Distance": 1402.2344970703125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 4981,
+                    "Lane": 1,
+                    "Elapsed": 193.00315856933594,
+                    "Distance": 1403.521484375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5016,
+                    "Lane": 1,
+                    "Elapsed": 195.80316162109375,
+                    "Distance": 1426.0760498046875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5078,
+                    "Lane": 0,
+                    "Elapsed": 200.76315307617188,
+                    "Distance": 1466.1839599609375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                }
+            ],
+            "PeakBudget": {
+                "Frame": 0,
+                "ActiveRenderers": 96,
+                "VisibleRenderers": 91,
+                "ActiveCanvasRenderers": 26,
+                "LineRenderers": 41,
+                "ParticleSystems": 0,
+                "LiveParticles": 0,
+                "UnsupportedRenderers": 0,
+                "InvalidBounds": 0,
+                "ActiveVertices": 767691,
+                "ActiveTriangles": 512684,
+                "VisibleVertices": 709826,
+                "VisibleTriangles": 475102,
+                "UiVertices": 636,
+                "UiTriangles": 318,
+                "UnscaledFrameMilliseconds": 15.539874076843262,
+                "SimulationDelta": 0.07999999076128006,
+                "RunnerCenterAngle": 11.309964179992676,
+                "FrameBudgetMilliseconds": 13.88888931274414,
+                "RunnerPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsCenter": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "CameraPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerViewport": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "ExternalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "ExternalEuler": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsPresent": false,
+                "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+            },
+            "LastBudget": {
+                "Frame": 5161,
+                "ActiveRenderers": 57,
+                "VisibleRenderers": 51,
+                "ActiveCanvasRenderers": 14,
+                "LineRenderers": 25,
+                "ParticleSystems": 0,
+                "LiveParticles": 0,
+                "UnsupportedRenderers": 0,
+                "InvalidBounds": 0,
+                "ActiveVertices": 502880,
+                "ActiveTriangles": 306159,
+                "VisibleVertices": 444975,
+                "VisibleTriangles": 268551,
+                "UiVertices": 216,
+                "UiTriangles": 108,
+                "UnscaledFrameMilliseconds": 12.312585830688477,
+                "SimulationDelta": 0.07999999076128006,
+                "RunnerCenterAngle": 11.309929847717285,
+                "FrameBudgetMilliseconds": 13.88888931274414,
+                "RunnerPosition": {
+                    "x": -5.499998569488525,
+                    "y": 0.5,
+                    "z": -2.600001573562622
+                },
+                "RunnerBoundsCenter": {
+                    "x": -5.564970970153809,
+                    "y": 1.2114442586898804,
+                    "z": -2.498152732849121
+                },
+                "RunnerBoundsSize": {
+                    "x": 0.5558114051818848,
+                    "y": 1.5353693962097168,
+                    "z": 0.6556763648986816
+                },
+                "CameraPosition": {
+                    "x": 0.0,
+                    "y": 1.600000023841858,
+                    "z": 0.0
+                },
+                "RunnerViewport": {
+                    "x": 0.3384662866592407,
+                    "y": 0.3623617887496948,
+                    "z": 5.5
+                },
+                "ExternalPosition": {
+                    "x": -52.07170867919922,
+                    "y": 0.46000000834465027,
+                    "z": 264.2399597167969
+                },
+                "ExternalEuler": {
+                    "x": 0.0,
+                    "y": 89.99999237060547,
+                    "z": 0.0
+                },
+                "RunnerBoundsPresent": true,
+                "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+            },
+            "BudgetSamples": [
+                {
+                    "Frame": 2491,
+                    "ActiveRenderers": 79,
+                    "VisibleRenderers": 76,
+                    "ActiveCanvasRenderers": 24,
+                    "LineRenderers": 34,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 657810,
+                    "ActiveTriangles": 426229,
+                    "VisibleVertices": 621346,
+                    "VisibleTriangles": 399959,
+                    "UiVertices": 432,
+                    "UiTriangles": 216,
+                    "UnscaledFrameMilliseconds": 12.923079490661621,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 5.499999523162842,
+                        "y": 0.5,
+                        "z": 9.5367431640625e-7
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 5.481670379638672,
+                        "y": 1.2103537321090698,
+                        "z": -0.09929266571998596
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.5107207298278809,
+                        "y": 1.5359857082366943,
+                        "z": 0.65955650806427
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 5.499999523162842,
+                        "y": 0.46000000834465027,
+                        "z": 9.834766387939453e-7
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 2791,
+                    "ActiveRenderers": 69,
+                    "VisibleRenderers": 64,
+                    "ActiveCanvasRenderers": 25,
+                    "LineRenderers": 30,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 584018,
+                    "ActiveTriangles": 363833,
+                    "VisibleVertices": 538336,
+                    "VisibleTriangles": 334575,
+                    "UiVertices": 500,
+                    "UiTriangles": 250,
+                    "UnscaledFrameMilliseconds": 13.881583213806152,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -4.808252924703993e-7,
+                        "y": 0.5,
+                        "z": -5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -0.09180310368537903,
+                        "y": 1.216118574142456,
+                        "z": -5.391297340393066
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7164252400398254,
+                        "y": 1.383945345878601,
+                        "z": 1.0007891654968262
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -98.4000015258789,
+                        "y": 0.46000000834465027,
+                        "z": 13.333025932312012
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 3091,
+                    "ActiveRenderers": 88,
+                    "VisibleRenderers": 81,
+                    "ActiveCanvasRenderers": 25,
+                    "LineRenderers": 39,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 706428,
+                    "ActiveTriangles": 460055,
+                    "VisibleVertices": 636300,
+                    "VisibleTriangles": 414097,
+                    "UiVertices": 604,
+                    "UiTriangles": 302,
+                    "UnscaledFrameMilliseconds": 12.74754810333252,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -4.808252924703993e-7,
+                        "y": 0.5,
+                        "z": -5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -0.11912228167057037,
+                        "y": 1.19099760055542,
+                        "z": -5.5130815505981445
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7045098543167114,
+                        "y": 1.4227162599563599,
+                        "z": 0.7419085502624512
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -98.40003204345703,
+                        "y": 0.46000000834465027,
+                        "z": 175.0404815673828
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 3391,
+                    "ActiveRenderers": 89,
+                    "VisibleRenderers": 83,
+                    "ActiveCanvasRenderers": 25,
+                    "LineRenderers": 37,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 734999,
+                    "ActiveTriangles": 488622,
+                    "VisibleVertices": 664911,
+                    "VisibleTriangles": 442690,
+                    "UiVertices": 540,
+                    "UiTriangles": 270,
+                    "UnscaledFrameMilliseconds": 12.779457092285156,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.500000476837158,
+                        "y": 0.5,
+                        "z": -4.76837158203125e-7
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.399971008300781,
+                        "y": 1.2203681468963623,
+                        "z": 0.09231775999069214
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.1025195121765137,
+                        "y": 1.3468607664108276,
+                        "z": 0.6042289733886719
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623618185520172,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -0.5668998956680298,
+                        "y": 0.46000000834465027,
+                        "z": 243.5039520263672
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 3691,
+                    "ActiveRenderers": 79,
+                    "VisibleRenderers": 73,
+                    "ActiveCanvasRenderers": 25,
+                    "LineRenderers": 35,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 639112,
+                    "ActiveTriangles": 410829,
+                    "VisibleVertices": 581207,
+                    "VisibleTriangles": 373221,
+                    "UiVertices": 500,
+                    "UiTriangles": 250,
+                    "UnscaledFrameMilliseconds": 12.739873886108398,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -2.599998950958252,
+                        "y": 0.5,
+                        "z": 5.500000476837158
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -2.5047144889831543,
+                        "y": 1.2210716009140015,
+                        "z": 5.368642330169678
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7254848480224609,
+                        "y": 1.3795092105865479,
+                        "z": 1.0180673599243164
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.3384662866592407,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 155.47193908691406,
+                        "y": 0.46000000834465027,
+                        "z": 228.59925842285156
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 3991,
+                    "ActiveRenderers": 83,
+                    "VisibleRenderers": 76,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 36,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 675419,
+                    "ActiveTriangles": 437852,
+                    "VisibleVertices": 605291,
+                    "VisibleTriangles": 391894,
+                    "UiVertices": 316,
+                    "UiTriangles": 158,
+                    "UnscaledFrameMilliseconds": 13.353663444519043,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 9.616505849407986e-7,
+                        "y": 0.5,
+                        "z": 5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 0.08770792931318283,
+                        "y": 1.2428655624389648,
+                        "z": 5.398133277893066
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.5448956489562988,
+                        "y": 1.2695873975753784,
+                        "z": 1.1610150337219238
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 155.47195434570313,
+                        "y": 0.46000000834465027,
+                        "z": 53.047767639160156
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 4291,
+                    "ActiveRenderers": 90,
+                    "VisibleRenderers": 84,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 37,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 734557,
+                    "ActiveTriangles": 495980,
+                    "VisibleVertices": 676652,
+                    "VisibleTriangles": 458372,
+                    "UiVertices": 288,
+                    "UiTriangles": 144,
+                    "UnscaledFrameMilliseconds": 12.181079864501953,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 7.056301593780518,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 5.499999523162842,
+                        "y": 0.9191999435424805,
+                        "z": 9.5367431640625e-7
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 5.467043876647949,
+                        "y": 1.620354175567627,
+                        "z": -0.09586785733699799
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7524080276489258,
+                        "y": 1.4989337921142578,
+                        "z": 0.7868564128875732
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.41481444239616394,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 49.22911071777344,
+                        "y": 0.46000000834465027,
+                        "z": -20.735963821411133
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 4591,
+                    "ActiveRenderers": 78,
+                    "VisibleRenderers": 72,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 35,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 637571,
+                    "ActiveTriangles": 396922,
+                    "VisibleVertices": 579666,
+                    "VisibleTriangles": 359314,
+                    "UiVertices": 296,
+                    "UiTriangles": 148,
+                    "UnscaledFrameMilliseconds": 12.360424041748047,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -2.6000001430511475,
+                        "y": 0.5,
+                        "z": -5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -2.6834893226623535,
+                        "y": 1.2087407112121582,
+                        "z": -5.412008285522461
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7167356014251709,
+                        "y": 1.39523446559906,
+                        "z": 0.9718708992004395
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.6615337133407593,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -119.13606262207031,
+                        "y": 0.46000000834465027,
+                        "z": -4.336919784545898
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 4891,
+                    "ActiveRenderers": 72,
+                    "VisibleRenderers": 66,
+                    "ActiveCanvasRenderers": 11,
+                    "LineRenderers": 31,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 600576,
+                    "ActiveTriangles": 387565,
+                    "VisibleVertices": 530488,
+                    "VisibleTriangles": 341633,
+                    "UiVertices": 252,
+                    "UiTriangles": 126,
+                    "UnscaledFrameMilliseconds": 13.732625007629395,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": 2.5999996662139893,
+                        "y": 0.5,
+                        "z": -5.5
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": 2.5008456707000732,
+                        "y": 1.2235298156738281,
+                        "z": -5.413450717926025
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.5842270851135254,
+                        "y": 1.3483366966247559,
+                        "z": 1.1367216110229492
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.3384662866592407,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -119.13612365722656,
+                        "y": 0.46000000834465027,
+                        "z": 184.95175170898438
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 89.99999237060547,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                }
+            ]
+        },
+        {
+            "Name": "primary-02",
+            "Mode": "Contract",
+            "Status": "Settled",
+            "FailureReason": "",
+            "SettlementId": "06a0849466eb470eb636b3e67b4ad7b8",
+            "ContractId": 2,
+            "PreferredRoute": -1,
+            "AlignmentMode": 2,
+            "Commands": 62,
+            "RenderedFrames": 3008,
+            "Seed": 5,
+            "Score": 93733,
+            "PickupChips": 75,
+            "FirstClearReward": 200,
+            "Stars": 3,
+            "NearMisses": 25,
+            "Turns": 6,
+            "PhaseUses": 0,
+            "ChipsBefore": 523,
+            "ChipsAfter": 798,
+            "TutorialLessons": 0,
+            "TutorialRecoveries": 0,
+            "LeftForks": 0,
+            "RightForks": 0,
+            "FramesOver72HzBudget": 1383,
+            "HeightRenderedFrames": 0,
+            "BossRenderedFrames": 0,
+            "FrameMillisecondsTotal": 42301.578075625,
+            "Victory": true,
+            "UsedAutoTurn": false,
+            "Durable": true,
+            "PauseAtTurnVerified": true,
+            "PauseOnSlopeVerified": false,
+            "SeedObserved": true,
+            "BossCaptureRequested": false,
+            "HeightCaptureRequested": false,
+            "Elapsed": 228.0,
+            "Distance": 1689.93603515625,
+            "BossObservedSeconds": 0.0,
+            "MaximumDelta": 0.07999999076128006,
+            "MaximumGroundHeight": 0.0,
+            "MinimumGroundHeight": 0.0,
+            "WallSeconds": 42.29601033400013,
+            "ArchivesAcquired": [
+                2
+            ],
+            "Trace": [
+                {
+                    "Frame": 5233,
+                    "Lane": 1,
+                    "Elapsed": 0.7999998927116394,
+                    "Distance": 5.202559471130371,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5332,
+                    "Lane": 2,
+                    "Elapsed": 8.719999313354492,
+                    "Distance": 56.98414611816406,
+                    "Height": 0.0,
+                    "Energy": 0.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5370,
+                    "Lane": 2,
+                    "Elapsed": 11.759998321533203,
+                    "Distance": 76.99317932128906,
+                    "Height": 0.0,
+                    "Energy": 0.20000000298023224,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5384,
+                    "Lane": 2,
+                    "Elapsed": 12.879998207092285,
+                    "Distance": 84.3835678100586,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5386,
+                    "Lane": 1,
+                    "Elapsed": 13.039998054504395,
+                    "Distance": 85.44015502929688,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5484,
+                    "Lane": 1,
+                    "Elapsed": 15.839998245239258,
+                    "Distance": 103.96360778808594,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5546,
+                    "Lane": 2,
+                    "Elapsed": 20.799997329711914,
+                    "Distance": 136.9305419921875,
+                    "Height": 0.0,
+                    "Energy": 0.4000000059604645,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5583,
+                    "Lane": 2,
+                    "Elapsed": 23.75758934020996,
+                    "Distance": 156.68202209472656,
+                    "Height": 0.0,
+                    "Energy": 0.6000000238418579,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5597,
+                    "Lane": 2,
+                    "Elapsed": 24.877588272094727,
+                    "Distance": 164.17990112304688,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5599,
+                    "Lane": 1,
+                    "Elapsed": 25.037588119506836,
+                    "Distance": 165.25184631347656,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5680,
+                    "Lane": 1,
+                    "Elapsed": 31.517587661743164,
+                    "Distance": 208.83775329589844,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5747,
+                    "Lane": 2,
+                    "Elapsed": 36.877586364746094,
+                    "Distance": 245.14413452148438,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5752,
+                    "Lane": 1,
+                    "Elapsed": 37.277587890625,
+                    "Distance": 247.86279296875,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5845,
+                    "Lane": 0,
+                    "Elapsed": 44.717586517333984,
+                    "Distance": 298.6629638671875,
+                    "Height": 0.0,
+                    "Energy": 0.800000011920929,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5897,
+                    "Lane": 0,
+                    "Elapsed": 48.86231231689453,
+                    "Distance": 327.1551208496094,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5899,
+                    "Lane": 1,
+                    "Elapsed": 49.02231216430664,
+                    "Distance": 328.2577819824219,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5934,
+                    "Lane": 1,
+                    "Elapsed": 51.82231140136719,
+                    "Distance": 347.58721923828125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 5996,
+                    "Lane": 0,
+                    "Elapsed": 56.782310485839844,
+                    "Distance": 381.98193359375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6047,
+                    "Lane": 0,
+                    "Elapsed": 60.862308502197266,
+                    "Distance": 410.4219055175781,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6049,
+                    "Lane": 1,
+                    "Elapsed": 61.022308349609375,
+                    "Distance": 411.5399169921875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6108,
+                    "Lane": 1,
+                    "Elapsed": 65.7423095703125,
+                    "Distance": 444.61322021484375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6122,
+                    "Lane": 1,
+                    "Elapsed": 66.86231231689453,
+                    "Distance": 452.4872741699219,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6146,
+                    "Lane": 0,
+                    "Elapsed": 68.78231048583984,
+                    "Distance": 466.009033203125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6197,
+                    "Lane": 0,
+                    "Elapsed": 72.86231231689453,
+                    "Distance": 494.8406677246094,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6221,
+                    "Lane": 1,
+                    "Elapsed": 74.78231048583984,
+                    "Distance": 508.45458984375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6296,
+                    "Lane": 1,
+                    "Elapsed": 80.78231048583984,
+                    "Distance": 551.1881103515625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6349,
+                    "Lane": 1,
+                    "Elapsed": 85.01126861572266,
+                    "Distance": 581.4808959960938,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6446,
+                    "Lane": 1,
+                    "Elapsed": 92.77127075195313,
+                    "Distance": 637.4392700195313,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6499,
+                    "Lane": 1,
+                    "Elapsed": 97.01126861572266,
+                    "Distance": 668.2179565429688,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6558,
+                    "Lane": 1,
+                    "Elapsed": 101.72786712646484,
+                    "Distance": 702.6253662109375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6647,
+                    "Lane": 1,
+                    "Elapsed": 108.84786224365234,
+                    "Distance": 754.9025268554688,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6746,
+                    "Lane": 2,
+                    "Elapsed": 116.76786041259766,
+                    "Distance": 813.530029296875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6783,
+                    "Lane": 2,
+                    "Elapsed": 119.72785949707031,
+                    "Distance": 835.5701293945313,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6797,
+                    "Lane": 2,
+                    "Elapsed": 120.84786224365234,
+                    "Distance": 843.9279174804688,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6799,
+                    "Lane": 1,
+                    "Elapsed": 121.00786590576172,
+                    "Distance": 845.1227416992188,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6834,
+                    "Lane": 1,
+                    "Elapsed": 123.807861328125,
+                    "Distance": 866.0646362304688,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6896,
+                    "Lane": 2,
+                    "Elapsed": 128.7678680419922,
+                    "Distance": 903.3157348632813,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6933,
+                    "Lane": 2,
+                    "Elapsed": 131.7278594970703,
+                    "Distance": 925.6400146484375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6947,
+                    "Lane": 2,
+                    "Elapsed": 132.8478546142578,
+                    "Distance": 934.1053466796875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 6949,
+                    "Lane": 1,
+                    "Elapsed": 133.0078582763672,
+                    "Distance": 935.3154907226563,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7022,
+                    "Lane": 1,
+                    "Elapsed": 138.8478546142578,
+                    "Distance": 979.6260375976563,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7097,
+                    "Lane": 2,
+                    "Elapsed": 144.8478546142578,
+                    "Distance": 1025.4346923828125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7102,
+                    "Lane": 1,
+                    "Elapsed": 145.24786376953125,
+                    "Distance": 1028.4989013671875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7196,
+                    "Lane": 0,
+                    "Elapsed": 152.76785278320313,
+                    "Distance": 1086.3431396484375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7247,
+                    "Lane": 0,
+                    "Elapsed": 156.8478546142578,
+                    "Distance": 1117.9161376953125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7249,
+                    "Lane": 1,
+                    "Elapsed": 157.0078582763672,
+                    "Distance": 1119.156982421875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7284,
+                    "Lane": 1,
+                    "Elapsed": 159.807861328125,
+                    "Distance": 1140.9052734375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7346,
+                    "Lane": 0,
+                    "Elapsed": 164.76785278320313,
+                    "Distance": 1179.5848388671875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7397,
+                    "Lane": 0,
+                    "Elapsed": 168.8478546142578,
+                    "Distance": 1211.5494384765625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7399,
+                    "Lane": 1,
+                    "Elapsed": 169.0078582763672,
+                    "Distance": 1212.8056640625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7458,
+                    "Lane": 1,
+                    "Elapsed": 173.72557067871094,
+                    "Distance": 1249.9384765625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7472,
+                    "Lane": 1,
+                    "Elapsed": 174.84556579589844,
+                    "Distance": 1258.780029296875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7496,
+                    "Lane": 0,
+                    "Elapsed": 176.76556396484375,
+                    "Distance": 1273.96044921875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7547,
+                    "Lane": 0,
+                    "Elapsed": 180.84556579589844,
+                    "Distance": 1306.316650390625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7571,
+                    "Lane": 1,
+                    "Elapsed": 182.76556396484375,
+                    "Distance": 1321.5892333984375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7646,
+                    "Lane": 1,
+                    "Elapsed": 188.76556396484375,
+                    "Distance": 1369.5059814453125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7700,
+                    "Lane": 1,
+                    "Elapsed": 193.07691955566406,
+                    "Distance": 1404.11474609375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7796,
+                    "Lane": 1,
+                    "Elapsed": 200.75692749023438,
+                    "Distance": 1466.13330078125,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Slide",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7850,
+                    "Lane": 1,
+                    "Elapsed": 205.07691955566406,
+                    "Distance": 1501.2261962890625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Left",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7909,
+                    "Lane": 1,
+                    "Elapsed": 209.7882080078125,
+                    "Distance": 1539.667724609375,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 7997,
+                    "Lane": 1,
+                    "Elapsed": 216.8282012939453,
+                    "Distance": 1597.4412841796875,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Right",
+                    "Source": "RunAutopilot"
+                },
+                {
+                    "Frame": 8096,
+                    "Lane": 2,
+                    "Elapsed": 224.74819946289063,
+                    "Distance": 1662.910400390625,
+                    "Height": 0.0,
+                    "Energy": 1.0,
+                    "Command": "Jump",
+                    "Source": "RunAutopilot"
+                }
+            ],
+            "PeakBudget": {
+                "Frame": 0,
+                "ActiveRenderers": 96,
+                "VisibleRenderers": 90,
+                "ActiveCanvasRenderers": 61,
+                "LineRenderers": 41,
+                "ParticleSystems": 0,
+                "LiveParticles": 0,
+                "UnsupportedRenderers": 0,
+                "InvalidBounds": 0,
+                "ActiveVertices": 767691,
+                "ActiveTriangles": 512684,
+                "VisibleVertices": 709786,
+                "VisibleTriangles": 475076,
+                "UiVertices": 504,
+                "UiTriangles": 252,
+                "UnscaledFrameMilliseconds": 16.390453338623047,
+                "SimulationDelta": 0.07999999076128006,
+                "RunnerCenterAngle": 11.309929847717285,
+                "FrameBudgetMilliseconds": 13.88888931274414,
+                "RunnerPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsCenter": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "CameraPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerViewport": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "ExternalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "ExternalEuler": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "RunnerBoundsPresent": false,
+                "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+            },
+            "LastBudget": {
+                "Frame": 8191,
+                "ActiveRenderers": 58,
+                "VisibleRenderers": 52,
+                "ActiveCanvasRenderers": 61,
+                "LineRenderers": 25,
+                "ParticleSystems": 0,
+                "LiveParticles": 0,
+                "UnsupportedRenderers": 0,
+                "InvalidBounds": 0,
+                "ActiveVertices": 516432,
+                "ActiveTriangles": 316390,
+                "VisibleVertices": 458527,
+                "VisibleTriangles": 278782,
+                "UiVertices": 504,
+                "UiTriangles": 252,
+                "UnscaledFrameMilliseconds": 13.211585998535156,
+                "SimulationDelta": 0.07999999076128006,
+                "RunnerCenterAngle": 11.309929847717285,
+                "FrameBudgetMilliseconds": 13.88888931274414,
+                "RunnerPosition": {
+                    "x": -5.500000953674316,
+                    "y": 0.5,
+                    "z": 2.599996566772461
+                },
+                "RunnerBoundsCenter": {
+                    "x": -5.564973831176758,
+                    "y": 1.2114442586898804,
+                    "z": 2.70184588432312
+                },
+                "RunnerBoundsSize": {
+                    "x": 0.5558114051818848,
+                    "y": 1.5353691577911377,
+                    "z": 0.6556763648986816
+                },
+                "CameraPosition": {
+                    "x": 0.0,
+                    "y": 1.600000023841858,
+                    "z": 0.0
+                },
+                "RunnerViewport": {
+                    "x": 0.6615336537361145,
+                    "y": 0.3623617887496948,
+                    "z": 5.5
+                },
+                "ExternalPosition": {
+                    "x": 1683.9632568359375,
+                    "y": 0.46000000834465027,
+                    "z": 0.0008029763121157885
+                },
+                "ExternalEuler": {
+                    "x": 0.0,
+                    "y": 269.9999694824219,
+                    "z": 0.0
+                },
+                "RunnerBoundsPresent": true,
+                "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+            },
+            "BudgetSamples": [
+                {
+                    "Frame": 5191,
+                    "ActiveRenderers": 83,
+                    "VisibleRenderers": 80,
+                    "ActiveCanvasRenderers": 12,
+                    "LineRenderers": 36,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 666315,
+                    "ActiveTriangles": 443160,
+                    "VisibleVertices": 629851,
+                    "VisibleTriangles": 416890,
+                    "UiVertices": 140,
+                    "UiTriangles": 70,
+                    "UnscaledFrameMilliseconds": 13.539668083190918,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.5,
+                        "z": -0.00000286102294921875
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.482981204986572,
+                        "y": 1.2101731300354004,
+                        "z": 0.09772102534770966
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.5177078247070313,
+                        "y": 1.534788727760315,
+                        "z": 0.6673996448516846
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.46000000834465027,
+                        "z": -0.0000026226043701171875
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 5491,
+                    "ActiveRenderers": 79,
+                    "VisibleRenderers": 72,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 35,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 648216,
+                    "ActiveTriangles": 405521,
+                    "VisibleVertices": 578088,
+                    "VisibleTriangles": 359563,
+                    "UiVertices": 180,
+                    "UiTriangles": 90,
+                    "UnscaledFrameMilliseconds": 15.306001663208008,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.500000953674316,
+                        "y": 0.5,
+                        "z": 2.599996566772461
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.493550777435303,
+                        "y": 1.2211062908172607,
+                        "z": 2.695178508758545
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7284040451049805,
+                        "y": 1.3833061456680298,
+                        "z": 0.7085192203521729
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.6615336537361145,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 102.17581939697266,
+                        "y": 0.46000000834465027,
+                        "z": 0.000048721230996306986
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 5791,
+                    "ActiveRenderers": 79,
+                    "VisibleRenderers": 72,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 34,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 649735,
+                    "ActiveTriangles": 419414,
+                    "VisibleVertices": 579607,
+                    "VisibleTriangles": 373456,
+                    "UiVertices": 192,
+                    "UiTriangles": 96,
+                    "UnscaledFrameMilliseconds": 15.553457260131836,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499998092651367,
+                        "y": 0.5,
+                        "z": -2.6000025272369385
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.468783378601074,
+                        "y": 1.1835788488388062,
+                        "z": -2.4903271198272705
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.0311870574951172,
+                        "y": 1.4211989641189575,
+                        "z": 0.6181302070617676
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.3384662866592407,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 263.6121520996094,
+                        "y": 0.46000000834465027,
+                        "z": 0.00012570008402690291
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 6091,
+                    "ActiveRenderers": 96,
+                    "VisibleRenderers": 90,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 41,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 767691,
+                    "ActiveTriangles": 512684,
+                    "VisibleVertices": 709786,
+                    "VisibleTriangles": 475076,
+                    "UiVertices": 204,
+                    "UiTriangles": 102,
+                    "UnscaledFrameMilliseconds": 16.390453338623047,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.5,
+                        "z": -0.00000286102294921875
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.397122859954834,
+                        "y": 1.2322072982788086,
+                        "z": 0.08660837262868881
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.1402626037597656,
+                        "y": 1.3105095624923706,
+                        "z": 0.5760577321052551
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 429.5653076171875,
+                        "y": 0.46000000834465027,
+                        "z": 0.00020483271509874612
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 6391,
+                    "ActiveRenderers": 68,
+                    "VisibleRenderers": 62,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 30,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 573373,
+                    "ActiveTriangles": 355234,
+                    "VisibleVertices": 515468,
+                    "VisibleTriangles": 317626,
+                    "UiVertices": 192,
+                    "UiTriangles": 96,
+                    "UnscaledFrameMilliseconds": 12.742545127868652,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.5,
+                        "z": -0.00000286102294921875
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.408017158508301,
+                        "y": 1.2079792022705078,
+                        "z": 0.1036212146282196
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.9436674118041992,
+                        "y": 1.4020103216171265,
+                        "z": 0.6829583048820496
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 600.151123046875,
+                        "y": 0.46000000834465027,
+                        "z": 0.00028617438510991633
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 6691,
+                    "ActiveRenderers": 78,
+                    "VisibleRenderers": 74,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 34,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 636078,
+                    "ActiveTriangles": 416389,
+                    "VisibleVertices": 595005,
+                    "VisibleTriangles": 388625,
+                    "UiVertices": 200,
+                    "UiTriangles": 100,
+                    "UnscaledFrameMilliseconds": 15.506377220153809,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.500000953674316,
+                        "y": 0.5,
+                        "z": 2.599996566772461
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.414557933807373,
+                        "y": 1.224259853363037,
+                        "z": 2.6993350982666016
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 1.136113166809082,
+                        "y": 1.3465402126312256,
+                        "z": 0.583521842956543
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.6615336537361145,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 775.397216796875,
+                        "y": 0.46000000834465027,
+                        "z": 0.00036973823443986475
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 6991,
+                    "ActiveRenderers": 80,
+                    "VisibleRenderers": 76,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 33,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 667947,
+                    "ActiveTriangles": 439572,
+                    "VisibleVertices": 626874,
+                    "VisibleTriangles": 411808,
+                    "UiVertices": 196,
+                    "UiTriangles": 98,
+                    "UnscaledFrameMilliseconds": 14.659375190734863,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.5,
+                        "z": -0.00000286102294921875
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.509585380554199,
+                        "y": 1.196067452430725,
+                        "z": 0.10666181147098541
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7536129951477051,
+                        "y": 1.423625111579895,
+                        "z": 0.7260288000106812
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 955.2758178710938,
+                        "y": 0.46000000834465027,
+                        "z": 0.0004555110353976488
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 7291,
+                    "ActiveRenderers": 72,
+                    "VisibleRenderers": 66,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 32,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 592965,
+                    "ActiveTriangles": 373406,
+                    "VisibleVertices": 535060,
+                    "VisibleTriangles": 335798,
+                    "UiVertices": 192,
+                    "UiTriangles": 96,
+                    "UnscaledFrameMilliseconds": 15.42179012298584,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499998092651367,
+                        "y": 0.5,
+                        "z": -2.6000025272369385
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.449393272399902,
+                        "y": 1.2152479887008667,
+                        "z": -2.4976401329040527
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.8563418388366699,
+                        "y": 1.4205873012542725,
+                        "z": 0.7047021389007568
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.3384662866592407,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 1139.7623291015625,
+                        "y": 0.46000000834465027,
+                        "z": 0.0005434810882434249
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 7591,
+                    "ActiveRenderers": 76,
+                    "VisibleRenderers": 71,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 33,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 626260,
+                    "ActiveTriangles": 406003,
+                    "VisibleVertices": 568395,
+                    "VisibleTriangles": 368421,
+                    "UiVertices": 208,
+                    "UiTriangles": 104,
+                    "UnscaledFrameMilliseconds": 14.789129257202148,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.5,
+                        "z": -0.00000286102294921875
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.494794845581055,
+                        "y": 1.1949262619018555,
+                        "z": 0.11699441075325012
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.7501997947692871,
+                        "y": 1.4305920600891113,
+                        "z": 0.711750328540802
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 1328.8387451171875,
+                        "y": 0.46000000834465027,
+                        "z": 0.0006336397491395473
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 7891,
+                    "ActiveRenderers": 83,
+                    "VisibleRenderers": 76,
+                    "ActiveCanvasRenderers": 13,
+                    "LineRenderers": 34,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 688410,
+                    "ActiveTriangles": 458557,
+                    "VisibleVertices": 618282,
+                    "VisibleTriangles": 412599,
+                    "UiVertices": 204,
+                    "UiTriangles": 102,
+                    "UnscaledFrameMilliseconds": 12.62562370300293,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.499999523162842,
+                        "y": 0.5,
+                        "z": -0.00000286102294921875
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.452115058898926,
+                        "y": 1.2387282848358154,
+                        "z": 0.09112457931041718
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.8241362571716309,
+                        "y": 1.339611291885376,
+                        "z": 0.714150071144104
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.5,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 1522.399169921875,
+                        "y": 0.46000000834465027,
+                        "z": 0.0007259365520440042
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                },
+                {
+                    "Frame": 8191,
+                    "ActiveRenderers": 58,
+                    "VisibleRenderers": 52,
+                    "ActiveCanvasRenderers": 61,
+                    "LineRenderers": 25,
+                    "ParticleSystems": 0,
+                    "LiveParticles": 0,
+                    "UnsupportedRenderers": 0,
+                    "InvalidBounds": 0,
+                    "ActiveVertices": 516432,
+                    "ActiveTriangles": 316390,
+                    "VisibleVertices": 458527,
+                    "VisibleTriangles": 278782,
+                    "UiVertices": 504,
+                    "UiTriangles": 252,
+                    "UnscaledFrameMilliseconds": 13.211585998535156,
+                    "SimulationDelta": 0.07999999076128006,
+                    "RunnerCenterAngle": 11.309929847717285,
+                    "FrameBudgetMilliseconds": 13.88888931274414,
+                    "RunnerPosition": {
+                        "x": -5.500000953674316,
+                        "y": 0.5,
+                        "z": 2.599996566772461
+                    },
+                    "RunnerBoundsCenter": {
+                        "x": -5.564973831176758,
+                        "y": 1.2114442586898804,
+                        "z": 2.70184588432312
+                    },
+                    "RunnerBoundsSize": {
+                        "x": 0.5558114051818848,
+                        "y": 1.5353691577911377,
+                        "z": 0.6556763648986816
+                    },
+                    "CameraPosition": {
+                        "x": 0.0,
+                        "y": 1.600000023841858,
+                        "z": 0.0
+                    },
+                    "RunnerViewport": {
+                        "x": 0.6615336537361145,
+                        "y": 0.3623617887496948,
+                        "z": 5.5
+                    },
+                    "ExternalPosition": {
+                        "x": 1683.9632568359375,
+                        "y": 0.46000000834465027,
+                        "z": 0.0008029763121157885
+                    },
+                    "ExternalEuler": {
+                        "x": 0.0,
+                        "y": 269.9999694824219,
+                        "z": 0.0
+                    },
+                    "RunnerBoundsPresent": true,
+                    "CountMethod": "Conservative per-instance LOD0 vertices/indices; game-camera frustum/layer eligibility, not selected LOD, occlusion or GPU counters. Lines baked; particle geometry excluded."
+                }
+            ]
+        }
+    ],
+    "Checks": [
+        {
+            "Name": "Actual scene camera exists",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Disposable save hook retained after domain reload",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Runtime store uses disposable directory",
+            "Detail": "/tmp/riftline-acceptance-staged/saves/1638f245762c4db38f9bcd98df38356f",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Fresh runtime progress",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "No AutoTurn assistance",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Catalog acceptance totals",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual runtime and presentation initialized",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual generated scene library populated",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual artwork, 15 animations and outfit materials populated",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual runner mesh instantiated",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Generated music and all feedback sounds contain audio",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "All generated game meshes have native reduced LODs",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual generated platform dimensions",
+            "Detail": "(7.800, 0.360, 6.020)",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Deck top is below runner feet, clear of UI",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Editor acceptance is desktop-only, not a device test",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Independent camera-local snapshot captured",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 1
+        },
+        {
+            "Name": "Actual mouse click opens Contracts",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 13
+        },
+        {
+            "Name": "Home restored for mouse Settings check",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 13
+        },
+        {
+            "Name": "Actual mouse click opens Settings",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 25
+        },
+        {
+            "Name": "Actual mouse wheel scrolls Settings",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 29
+        },
+        {
+            "Name": "Actual mouse Back returns Home",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 37
+        },
+        {
+            "Name": "Page zh/Home",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 40
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Home",
+            "Passed": true,
+            "Frame": 40
+        },
+        {
+            "Name": "Page zh/Contracts",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 43
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Contracts",
+            "Passed": true,
+            "Frame": 43
+        },
+        {
+            "Name": "Page zh/Outfits",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 46
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Outfits",
+            "Passed": true,
+            "Frame": 46
+        },
+        {
+            "Name": "Page zh/Archives",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 49
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Archives",
+            "Passed": true,
+            "Frame": 49
+        },
+        {
+            "Name": "Page zh/Settings",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 52
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Settings",
+            "Passed": true,
+            "Frame": 52
+        },
+        {
+            "Name": "Page en/Home",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 55
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Home",
+            "Passed": true,
+            "Frame": 55
+        },
+        {
+            "Name": "Page en/Contracts",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 58
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Contracts",
+            "Passed": true,
+            "Frame": 58
+        },
+        {
+            "Name": "Page en/Outfits",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 61
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Outfits",
+            "Passed": true,
+            "Frame": 61
+        },
+        {
+            "Name": "Page en/Archives",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 64
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Archives",
+            "Passed": true,
+            "Frame": 64
+        },
+        {
+            "Name": "Page en/Settings",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 67
+        },
+        {
+            "Name": "Page has real interactive buttons",
+            "Detail": "Settings",
+            "Passed": true,
+            "Frame": 67
+        },
+        {
+            "Name": "Invalid UI navigation rejected",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 70
+        },
+        {
+            "Name": "Clean runtime gates",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 70
+        },
+        {
+            "Name": "No pending persistence before replacing run",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 70
+        },
+        {
+            "Name": "Run settings saved",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 70
+        },
+        {
+            "Name": "Contract unlocked through actual progress",
+            "Detail": "0",
+            "Passed": true,
+            "Frame": 70
+        },
+        {
+            "Name": "Real runtime start entered countdown",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 70
+        },
+        {
+            "Name": "Independent actual camera / avatar observation",
+            "Detail": "camera-local/ancestor snapshot; viewport=(0.50, 0.36, 5.50); bounds=(0.66, 1.54, 0.51)",
+            "Passed": true,
+            "Frame": 91
+        },
+        {
+            "Name": "PauseAtTurn enters actual paused state",
+            "Detail": "alignment=0",
+            "Passed": true,
+            "Frame": 334
+        },
+        {
+            "Name": "Pause > Settings > Pause navigation",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 359
+        },
+        {
+            "Name": "PauseAtTurn resumes through actual countdown",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 359
+        },
+        {
+            "Name": "Resume countdown lasts three actual scaled seconds",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 397
+        },
+        {
+            "Name": "Actual PauseAtTurn freeze",
+            "Detail": "alignment=0; transforms=231",
+            "Passed": true,
+            "Frame": 397
+        },
+        {
+            "Name": "Actual settlement earnings reconcile",
+            "Detail": "primary-00",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "Settlement persisted exactly once",
+            "Detail": "primary-00",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "Fresh store reload matches runtime durable progress",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "Contract completed with real three-star result",
+            "Detail": "primary-00: ",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "First-clear/replay reward matches",
+            "Detail": "primary-00",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "Every actual fork selected the requested branch",
+            "Detail": "primary-00",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "Actual tutorial lessons completed",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2465
+        },
+        {
+            "Name": "Actual results panel becomes visible",
+            "Detail": "primary-00",
+            "Passed": true,
+            "Frame": 2468
+        },
+        {
+            "Name": "Sequential progression contains no injected clears",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2468
+        },
+        {
+            "Name": "No pending persistence before replacing run",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2468
+        },
+        {
+            "Name": "Run settings saved",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2468
+        },
+        {
+            "Name": "Contract unlocked through actual progress",
+            "Detail": "1",
+            "Passed": true,
+            "Frame": 2468
+        },
+        {
+            "Name": "Real runtime start entered countdown",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2468
+        },
+        {
+            "Name": "Independent actual camera / avatar observation",
+            "Detail": "camera-local/ancestor snapshot; viewport=(0.50, 0.36, 5.50); bounds=(0.51, 1.54, 0.66)",
+            "Passed": true,
+            "Frame": 2491
+        },
+        {
+            "Name": "PauseAtTurn enters actual paused state",
+            "Detail": "alignment=1",
+            "Passed": true,
+            "Frame": 2694
+        },
+        {
+            "Name": "Pause > Settings > Pause navigation",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2718
+        },
+        {
+            "Name": "PauseAtTurn resumes through actual countdown",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2718
+        },
+        {
+            "Name": "Resume countdown lasts three actual scaled seconds",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 2756
+        },
+        {
+            "Name": "Actual PauseAtTurn freeze",
+            "Detail": "alignment=1; transforms=297",
+            "Passed": true,
+            "Frame": 2756
+        },
+        {
+            "Name": "Actual settlement earnings reconcile",
+            "Detail": "primary-01",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "Settlement persisted exactly once",
+            "Detail": "primary-01",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "Fresh store reload matches runtime durable progress",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "Contract completed with real three-star result",
+            "Detail": "primary-01: ",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "First-clear/replay reward matches",
+            "Detail": "primary-01",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "Every actual fork selected the requested branch",
+            "Detail": "primary-01",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "Actual phase lesson executed",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5182
+        },
+        {
+            "Name": "Actual results panel becomes visible",
+            "Detail": "primary-01",
+            "Passed": true,
+            "Frame": 5185
+        },
+        {
+            "Name": "Sequential progression contains no injected clears",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5185
+        },
+        {
+            "Name": "No pending persistence before replacing run",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5185
+        },
+        {
+            "Name": "Run settings saved",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5185
+        },
+        {
+            "Name": "Contract unlocked through actual progress",
+            "Detail": "2",
+            "Passed": true,
+            "Frame": 5185
+        },
+        {
+            "Name": "Real runtime start entered countdown",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5185
+        },
+        {
+            "Name": "Independent actual camera / avatar observation",
+            "Detail": "camera-local/ancestor snapshot; viewport=(0.50, 0.36, 5.50); bounds=(0.52, 1.53, 0.67)",
+            "Passed": true,
+            "Frame": 5191
+        },
+        {
+            "Name": "PauseAtTurn enters actual paused state",
+            "Detail": "alignment=2",
+            "Passed": true,
+            "Frame": 5411
+        },
+        {
+            "Name": "Pause > Settings > Pause navigation",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5436
+        },
+        {
+            "Name": "PauseAtTurn resumes through actual countdown",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5436
+        },
+        {
+            "Name": "Resume countdown lasts three actual scaled seconds",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 5474
+        },
+        {
+            "Name": "Actual PauseAtTurn freeze",
+            "Detail": "alignment=2; transforms=320",
+            "Passed": true,
+            "Frame": 5474
+        },
+        {
+            "Name": "Actual settlement earnings reconcile",
+            "Detail": "primary-02",
+            "Passed": true,
+            "Frame": 8190
+        },
+        {
+            "Name": "Settlement persisted exactly once",
+            "Detail": "primary-02",
+            "Passed": true,
+            "Frame": 8190
+        },
+        {
+            "Name": "Fresh store reload matches runtime durable progress",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 8190
+        },
+        {
+            "Name": "Contract completed with real three-star result",
+            "Detail": "primary-02: ",
+            "Passed": true,
+            "Frame": 8190
+        },
+        {
+            "Name": "First-clear/replay reward matches",
+            "Detail": "primary-02",
+            "Passed": true,
+            "Frame": 8190
+        },
+        {
+            "Name": "Every actual fork selected the requested branch",
+            "Detail": "primary-02",
+            "Passed": true,
+            "Frame": 8190
+        },
+        {
+            "Name": "Actual results panel becomes visible",
+            "Detail": "primary-02",
+            "Passed": true,
+            "Frame": 8193
+        },
+        {
+            "Name": "Sequential progression contains no injected clears",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 8193
+        },
+        {
+            "Name": "All three alignment-mode PauseAtTurn probes",
+            "Detail": "",
+            "Passed": true,
+            "Frame": 8193
+        }
+    ],
+    "Console": [
+        {
+            "Type": "Warning",
+            "Message": "Registering subsystem descriptor with duplicate ID 'PICO Hands' - overwriting previous entry.",
+            "Stack": "UnityEngine.XR.Hands.XRHandSubsystemDescriptor:Register (UnityEngine.XR.Hands.XRHandSubsystemDescriptor/Cinfo)\nByteDance.PICO.XR.PXR_HandSubSystem:RegisterDescriptor () (at ./Library/PackageCache/com.bytedance.pico.xr@4e028cc115f0/Runtime/Scripts/Hand/PXR_HandSubsystem.cs:57)\n",
+            "Frame": 0
+        }
+    ],
+    "Screenshots": [
+        {
+            "Name": "phase-zero-zh-home",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-zh-home.png",
+            "RequestedFrame": 40,
+            "CapturedFrame": 42,
+            "RenderedPage": "Home",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Home",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2584943
+        },
+        {
+            "Name": "phase-zero-zh-contracts",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-zh-contracts.png",
+            "RequestedFrame": 43,
+            "CapturedFrame": 45,
+            "RenderedPage": "Contracts",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Contracts",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2332638
+        },
+        {
+            "Name": "phase-zero-zh-outfits",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-zh-outfits.png",
+            "RequestedFrame": 46,
+            "CapturedFrame": 48,
+            "RenderedPage": "Outfits",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Outfits",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2324301
+        },
+        {
+            "Name": "phase-zero-zh-archives",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-zh-archives.png",
+            "RequestedFrame": 49,
+            "CapturedFrame": 51,
+            "RenderedPage": "Archives",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Archives",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2320808
+        },
+        {
+            "Name": "phase-zero-zh-settings",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-zh-settings.png",
+            "RequestedFrame": 52,
+            "CapturedFrame": 54,
+            "RenderedPage": "Settings",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Settings",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2274872
+        },
+        {
+            "Name": "phase-zero-en-home",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-en-home.png",
+            "RequestedFrame": 55,
+            "CapturedFrame": 57,
+            "RenderedPage": "Home",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Home",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2604657
+        },
+        {
+            "Name": "phase-zero-en-contracts",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-en-contracts.png",
+            "RequestedFrame": 58,
+            "CapturedFrame": 60,
+            "RenderedPage": "Contracts",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Contracts",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2372597
+        },
+        {
+            "Name": "phase-zero-en-outfits",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-en-outfits.png",
+            "RequestedFrame": 61,
+            "CapturedFrame": 63,
+            "RenderedPage": "Outfits",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Outfits",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2358084
+        },
+        {
+            "Name": "phase-zero-en-archives",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-en-archives.png",
+            "RequestedFrame": 64,
+            "CapturedFrame": 66,
+            "RenderedPage": "Archives",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Archives",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2345350
+        },
+        {
+            "Name": "phase-zero-en-settings",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/phase-zero-en-settings.png",
+            "RequestedFrame": 67,
+            "CapturedFrame": 69,
+            "RenderedPage": "Settings",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Menu",
+            "ExpectedPage": "Settings",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Menu",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2289865
+        },
+        {
+            "Name": "primary-00-running",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-00-running.png",
+            "RequestedFrame": 108,
+            "CapturedFrame": 110,
+            "RenderedPage": "Settings",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Running",
+            "ExpectedPage": "Settings",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Running",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 3108165
+        },
+        {
+            "Name": "primary-00-pause-at-turn",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-00-pause-at-turn.png",
+            "RequestedFrame": 334,
+            "CapturedFrame": 336,
+            "RenderedPage": "Pause",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Paused",
+            "ExpectedPage": "Pause",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Paused",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2045146
+        },
+        {
+            "Name": "primary-00-results",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-00-results.png",
+            "RequestedFrame": 2465,
+            "CapturedFrame": 2467,
+            "RenderedPage": "Results",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Completed",
+            "ExpectedPage": "Results",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Completed",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2356362
+        },
+        {
+            "Name": "primary-01-running",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-01-running.png",
+            "RequestedFrame": 2506,
+            "CapturedFrame": 2508,
+            "RenderedPage": "Home",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Running",
+            "ExpectedPage": "Home",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Running",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 3386678
+        },
+        {
+            "Name": "primary-01-pause-at-turn",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-01-pause-at-turn.png",
+            "RequestedFrame": 2694,
+            "CapturedFrame": 2696,
+            "RenderedPage": "Pause",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Paused",
+            "ExpectedPage": "Pause",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Paused",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2449523
+        },
+        {
+            "Name": "primary-01-results",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-01-results.png",
+            "RequestedFrame": 5182,
+            "CapturedFrame": 5184,
+            "RenderedPage": "Results",
+            "RenderedLanguage": "en",
+            "RenderedPhase": "Completed",
+            "ExpectedPage": "Results",
+            "ExpectedLanguage": "en",
+            "ExpectedPhase": "Completed",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2169617
+        },
+        {
+            "Name": "primary-02-running",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-02-running.png",
+            "RequestedFrame": 5223,
+            "CapturedFrame": 5225,
+            "RenderedPage": "Home",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Running",
+            "ExpectedPage": "Home",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Running",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2858328
+        },
+        {
+            "Name": "primary-02-pause-at-turn",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-02-pause-at-turn.png",
+            "RequestedFrame": 5411,
+            "CapturedFrame": 5413,
+            "RenderedPage": "Pause",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Paused",
+            "ExpectedPage": "Pause",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Paused",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2062212
+        },
+        {
+            "Name": "primary-02-results",
+            "Path": "/Users/bytedance/Desktop/Riftline/docs/validation/e393c51bebd340f7bd54bf445b2915e1/primary-02-results.png",
+            "RequestedFrame": 8190,
+            "CapturedFrame": 8192,
+            "RenderedPage": "Results",
+            "RenderedLanguage": "zh",
+            "RenderedPhase": "Completed",
+            "ExpectedPage": "Results",
+            "ExpectedLanguage": "zh",
+            "ExpectedPhase": "Completed",
+            "Submitted": true,
+            "FileObserved": true,
+            "Bytes": 2574630
+        }
+    ],
+    "Limitations": [
+        "Production RunAutopilot reads event metadata; this is integration acceptance, not an independent Core solvability proof.",
+        "Geometry is dynamically counted by instance and game-camera frustum eligibility, not occlusion, draw calls, GPU timing or PICO performance.",
+        "Particle counts are observed; particle-generated geometry is excluded and explicitly counted as unsupported.",
+        "Screenshot requests require nonempty files; visual correctness still requires human inspection.",
+        "Queued keyboard events exercise real InputActions. Physical XR stick, controller rays/drag, worn duration and headset comfort are not certified.",
+        "No mutations of events, scores, energy, unlocks, lane positions, duration or AutoTurn assistance are permitted."
+    ]
+}

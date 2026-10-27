@@ -1,0 +1,9 @@
+{
+  "AudioTracks" : 1,
+  "DecodedPcmSamples" : 6815840,
+  "NonzeroSamples" : 6798403,
+  "PeakAmplitude" : 0.65141242742538452,
+  "RmsAmplitude" : 0.078340261212281728,
+  "Source" : "ScreenCaptureKit app audio; no microphone capture",
+  "Success" : true
+}

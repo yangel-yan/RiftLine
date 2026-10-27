@@ -1,0 +1,82 @@
+{
+  "source": "Unity AI Generator via Unity AI Assistant 2.21.0-pre.1",
+  "date": "2026-10-26",
+  "scope": "Presentation upgrade; supplements asset-provenance.json.",
+  "records": [
+    {
+      "name": "OrbitalDocksSky",
+      "command": "GenerateCubemap",
+      "model": "skybox-cinematic",
+      "output": "Assets/Riftline/Art/Generated/Skies/OrbitalDocksSky.png",
+      "integration": "Imported as a 1024 cubemap, used by RegionalSky and custom reflections.",
+      "prompt": "Immersive high quality 360 degree science fiction orbital shipyard environment sky, deep midnight navy cosmos with soft teal blue atmospheric nebula haze, a giant pale ringed planet low on the far horizon, distant orbital station silhouettes and restrained warm amber docking beacons, dramatic cinematic lighting and volumetric atmosphere, clean clear upper sky, realistic physically based space art, no close objects, no floor, no foreground buildings, no people, no text, subtle stars, horizon level, coherent continuous panorama for premium VR game",
+      "verification": "Nonempty generated output; actual Unity Cubemap assigned in scene library."
+    },
+    {
+      "name": "NeonRainSky",
+      "command": "GenerateCubemap",
+      "model": "skybox-cinematic",
+      "output": "Assets/Riftline/Art/Generated/Skies/NeonRainSky.png",
+      "integration": "Imported as a 1024 cubemap; six-second regional blend.",
+      "prompt": "Premium cinematic 360 degree science fiction rain city skyline at blue hour night, distant layered futuristic megacity horizon in deep blue violet and indigo, restrained cyan and magenta luminous windows, large pale moon behind atmospheric clouds, dark storm clouds above with soft light shafts, rich atmospheric depth, sleek coherent industrial architecture, realistic physically based environment art for immersive VR, no close objects, no floor or foreground street, no people, no text, level horizon, subdued clean center visibility",
+      "verification": "Nonempty generated output; actual Unity Cubemap assigned in scene library."
+    },
+    {
+      "name": "QuantumRuinsSky",
+      "command": "GenerateCubemap",
+      "model": "skybox-cinematic",
+      "output": "Assets/Riftline/Art/Generated/Skies/QuantumRuinsSky.png",
+      "integration": "Imported as a 1024 cubemap; ambient and reflection response follow region.",
+      "prompt": "Premium cinematic 360 degree alien quantum ruins environment sky, deep azure and desaturated teal atmosphere, monumental distant ivory orbital ring broken into clean geometric arcs on the horizon, pale gold energy sun and subtle luminous nebula ribbons, atmospheric clouds and far floating monolith silhouettes, mysterious elegant hard science fiction, rich dark blue shadows balanced with warm gold highlights, coherent continuous immersive VR panorama, no near geometry, no floor, no people, no text, level horizon, avoid blinding brightness",
+      "verification": "Nonempty generated output; actual Unity Cubemap assigned in scene library."
+    },
+    {
+      "name": "Regional rail albedo materials",
+      "command": "GenerateMaterial",
+      "model": "scenario-texture-converter",
+      "reference": "Existing Generator-authored regional materials converted to URP Lit.",
+      "outputs": [
+        "Assets/Riftline/Art/Generated/ShipyardRailPBR.mat",
+        "Assets/Riftline/Art/Generated/RaincityRailPBR.mat",
+        "Assets/Riftline/Art/Generated/QuantumRailPBR.mat"
+      ],
+      "verification": "All three materials have completed, nonempty generated BaseMap textures.",
+      "integration": "Instancing, normal map, scalar metallic and smoothness configured locally. AddPbrToMaterial failed with No reference material available; no generated roughness or metallic maps are claimed."
+    },
+    {
+      "name": "ShipyardRailNormal",
+      "command": "GenerateImage",
+      "model": "gemini-3.1-flash-texture",
+      "reference": "Matching generated ShipyardRailPBR BaseMap.",
+      "output": "Assets/Riftline/Art/Generated/ShipyardRailNormal.png",
+      "prompt": "Convert the referenced seamless steel panel albedo into a corresponding tangent space normal map. Preserve the exact panel layout. Standard purple blue normal map with neutral background RGB 128 128 255, cyan magenta shading only on fine recessed grooves and beveled seams, flat centers, tileable, no albedo, no lighting, no shadows, no text.",
+      "verification": "Completed 1024 image, TextureImporter NormalMap, assigned to _BumpMap."
+    },
+    {
+      "name": "RaincityRailNormal",
+      "command": "GenerateImage",
+      "model": "gemini-3.1-flash-texture",
+      "reference": "Matching generated RaincityRailPBR BaseMap.",
+      "output": "Assets/Riftline/Art/Generated/RaincityRailNormal.png",
+      "prompt": "Convert the referenced seamless wet steel panel texture into a corresponding tangent space normal map. Preserve exact panel geometry. Neutral purple blue normal RGB 128 128 255 for flat areas, fine embossed edges and shallow rain droplets, cyan magenta edge shading, tileable, no color albedo, no specular highlights, no lighting or text.",
+      "verification": "Completed 1024 image, TextureImporter NormalMap, assigned to _BumpMap."
+    },
+    {
+      "name": "QuantumRailNormal",
+      "command": "GenerateImage",
+      "model": "gemini-3.1-flash-texture",
+      "reference": "Matching generated QuantumRailPBR BaseMap.",
+      "output": "Assets/Riftline/Art/Generated/QuantumRailNormal.png",
+      "prompt": "Convert the referenced seamless ceramic stone alloy into a corresponding tangent space normal map. Preserve the same etched seams and mineral micro detail. Flat background purple blue RGB 128 128 255, subtle magenta cyan normals on shallow seams, seamless, no albedo color, no lighting, no baked shadows or lettering.",
+      "verification": "Completed 1024 image, TextureImporter NormalMap, assigned to _BumpMap."
+    },
+    {
+      "name": "RunStationary",
+      "source": "Previously generated Run.anim",
+      "operations": ["Unity Generator TrimToBestLoop", "Unity Generator MakeStationary"],
+      "output": "Assets/Riftline/Art/Generated/Animations/RunStationary.anim",
+      "durationSeconds": 2.291667,
+      "integration": "Looped locomotion; generated source at native cadence, no compressed whole-clip repetition."
+    }
+  ]
+}

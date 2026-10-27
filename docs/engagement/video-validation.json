@@ -1,0 +1,12 @@
+{
+  "AudioTracks" : 1,
+  "CaptureSource" : "macOS ScreenCaptureKit, actual Unity window",
+  "DecodedFrames" : 2460,
+  "DurationSeconds" : 82,
+  "Edit" : "Crop editor toolbars; resize to 1600 pixels wide; no speed change",
+  "Height" : 790,
+  "NominalFrameRate" : 30.000001907348633,
+  "Success" : true,
+  "Video" : "\/Users\/bytedance\/Desktop\/Riftline\/docs\/engagement\/editor-playthrough.mp4",
+  "Width" : 1600
+}

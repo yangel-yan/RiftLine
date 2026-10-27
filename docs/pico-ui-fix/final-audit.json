@@ -1,0 +1,14 @@
+{
+    "Success": true,
+    "Playing": false,
+    "Compiling": false,
+    "SceneDirty": false,
+    "PoseDriverEnabled": true,
+    "TemporaryInputAbsent": true,
+    "AcceptanceInactive": true,
+    "Scene": "Assets/Riftline/Scenes/Riftline.unity",
+    "XrOrigins": 1,
+    "PicoManagers": 1,
+    "MainCameras": 1,
+    "UnityVersion": "6000.6.7f1"
+}
